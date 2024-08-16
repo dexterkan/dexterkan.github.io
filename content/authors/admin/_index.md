@@ -6,8 +6,8 @@ title: Te Yi Kan
 name_pronunciation: Dexter
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Te Yi
+last_name: Kan
 
 # Status emoji
 status:
@@ -20,12 +20,12 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Ph.D. Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: University of Southern California (USC)
+    url: https://www.usc.edu/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
