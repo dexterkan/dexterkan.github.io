@@ -35,9 +35,9 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        My research interests span the fields of machine learning and networking systems, including but not limited to privacy in AI/ML, wireless communications and networks, fog/edge computing and networking, intelligent reflecting surface (IRS)-aided communications, and multi-input multi-output (MIMO) communications.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        Currently, I'm working on building privacy-preserving and distributed systems.
         
         Please reach out to collaborate 😃
     design:

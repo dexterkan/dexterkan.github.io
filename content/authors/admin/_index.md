@@ -88,7 +88,7 @@ education:
 work:
   - position: Research Assistant
     company_name: NetPD at USC
-    company_url: ''
+    company_url: 'https://sites.usc.edu/kpsounis/'
     company_logo: ''
     date_start: 2023-02-10
     date_end: ''
@@ -99,7 +99,7 @@ work:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
   - position: Research Assistant
     company_name: Academia Sinica
-    company_url: ''
+    company_url: 'https://homepage.citi.sinica.edu.tw/~rchang/'
     company_logo: ''
     date_start: 2020-09-21
     date_end: 2022-05-20
@@ -110,7 +110,7 @@ work:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
   - position: Summer Intern
     company_name: Foxconn Technology Group
-    company_url: ''
+    company_url: 'https://www.foxconn.com/en-us'
     company_logo: ''
     date_start: 2017-06-26
     date_end: 2017-08-31
@@ -121,7 +121,7 @@ work:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
   - position: Student Researcher
     company_name: WMNL at NTU
-    company_url: ''
+    company_url: 'https://wmnlab.ee.ntu.edu.tw'
     company_logo: ''
     date_start: 2016-08-01
     date_end: 2018-12-31
@@ -212,5 +212,3 @@ awards:
 As a dedicated PhD Fellow at USC, my research focuses on privacy-preserving machine learning systems and efficient task scheduling within vehicular edge networks. My teaching experience, including courses in probability and computer networking, has strengthened my ability to communicate with colleagues, convey complex technical concepts clearly, and reinforce my expertise in computer networking.
 
 Before joining USC, I earned my B.S. degree in Electrical Engineering from NTU, Taiwan, in 2019, and my M.S. degree in Electrical and Computer Engineering from UCLA in 2020. I also worked as a Research Assistant in wireless communications at Academia Sinica, Taiwan.
-
-My research interests span the fields of machine learning and networking systems, including but not limited to privacy in AI/ML, wireless communications and networks, fog/edge computing and networking, intelligent reflecting surface (IRS)-aided communications, and multi-input multi-output (MIMO) communications.
