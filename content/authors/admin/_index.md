@@ -11,7 +11,7 @@ last_name: Kan
 
 # Status emoji
 status:
-  icon: 
+  icon: 🎓
 
 # Is this the primary user of the site?
 superuser: true
@@ -47,9 +47,11 @@ profiles:
     url: https://orcid.org/my-orcid?orcid=0000-0002-2251-1499
 
 interests:
+  - Privacy-preserving and Distributed Machine Learning Systems
+  - Task Scheduling
+  - Vehicular Networking
+  - Wireless Networking
   - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
 
 education:
   - area: PhD Electrical and Computer Engineering
@@ -57,7 +59,7 @@ education:
     date_start: 2022-08-22
     date_end: ''
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      Thesis on _Why LLMs are awesome_. Supervised by [Prof Konstantinos Psounis](https://sites.usc.edu/kpsounis/). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
@@ -166,9 +168,11 @@ skills:
 languages:
   - name: English
     percent: 100
-  - name: Chinese
+  - name: English
     percent: 75
-  - name: Portuguese
+  - name: Taiwanese
+    percent: 50
+  - name: Japanese
     percent: 25
 
 # Awards.
@@ -205,4 +209,8 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+As a dedicated PhD Fellow at USC, my research focuses on privacy-preserving machine learning systems and efficient task scheduling within vehicular edge networks. My teaching experience, including courses in probability and computer networking, has strengthened my ability to communicate with colleagues, convey complex technical concepts clearly, and reinforce my expertise in computer networking.
+
+Before joining USC, I earned my B.S. degree in Electrical Engineering from NTU, Taiwan, in 2019, and my M.S. degree in Electrical and Computer Engineering from UCLA in 2020. I also worked as a Research Assistant in wireless communications at Academia Sinica, Taiwan.
+
+My research interests span the fields of machine learning and networking systems, including but not limited to privacy in AI/ML, wireless communications and networks, fog/edge computing and networking, intelligent reflecting surface (IRS)-aided communications, and multi-input multi-output (MIMO) communications.
