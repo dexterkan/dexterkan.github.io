@@ -121,8 +121,8 @@ work:
     company_name: WMNL at NTU
     company_url: ''
     company_logo: ''
-    date_start: 2016-08
-    date_end: 2018-12
+    date_start: 2016-08-01
+    date_end: 2018-12-31
     summary: |
       Responsibilities include:
       - Migrated infrastructure to a new data center
