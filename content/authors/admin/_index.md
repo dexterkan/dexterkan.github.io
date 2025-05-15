@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 吳健雄
+title: 甘德翊
 
 # Name pronunciation (optional)
 name_pronunciation: Dexter
@@ -11,7 +11,7 @@ last_name: Kan
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,31 +20,31 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Ph.D. Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: University of Southern California (USC)
+    url: https://www.usc.edu/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:teyikan@usc.edu'
     label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/GetResearchDev
+    url: https://x.com/dexter_kan
   - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://www.instagram.com/dexter.0426/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/dexterkan
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/dexterkan/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://scholar.google.com/citations?user=ZoeW9jkAAAAJ&hl=en
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/my-orcid?orcid=0000-0002-2251-1499
 
 interests:
   - Artificial Intelligence
