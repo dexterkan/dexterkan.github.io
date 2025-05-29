@@ -188,22 +188,6 @@ skills:
         description: ''
         percent: 100
         icon: chart-bar
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Basketball
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Workout
-        description: ''
-        percent: 80
-        icon: camera
 
 languages:
   - name: English
@@ -214,6 +198,20 @@ languages:
     percent: 50
   - name: Japanese
     percent: 25
+
+hobbies:
+  - name: Hiking
+    description: ''
+    percent: 60
+    icon: person-simple-walk
+  - name: Basketball
+    description: ''
+    percent: 100
+    icon: cat
+  - name: Workout
+    description: ''
+    percent: 80
+    icon: camera
 
 # Awards.
 #   Add/remove as many awards below as you like.
