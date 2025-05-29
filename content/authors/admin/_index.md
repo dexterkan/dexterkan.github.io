@@ -134,20 +134,60 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Programming Skills
     items:
       - name: Python
         description: ''
         percent: 80
         icon: code-bracket
-      - name: Data Science
+      - name: C/C++
         description: ''
         percent: 100
         icon: chart-bar
-      - name: SQL
+      - name: Java
         description: ''
         percent: 40
         icon: circle-stack
+      - name: R
+        description: ''
+        percent: 40
+        icon: circle-stack
+      - name: Matlab
+        description: ''
+        percent: 40
+        icon: circle-stack
+  - name: Deep Learning Frameworks & API
+    items:
+      - name: PyTorch
+        description: ''
+        percent: 80
+        icon: code-bracket
+      - name: TensorFlow
+        description: ''
+        percent: 100
+        icon: chart-bar
+      - name: Scikit-learn
+        description: ''
+        percent: 100
+        icon: chart-bar
+      - name: Keras
+        description: ''
+        percent: 100
+        icon: chart-bar
+  - name: Infrastructure & Deployment
+    items:
+      - name: Openstack
+        description: ''
+        percent: 100
+        icon: chart-bar
+      - name: Docker
+        description: ''
+        percent: 100
+        icon: chart-bar
+      - name: Kubernetes
+        description: ''
+        percent: 100
+        icon: chart-bar
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
@@ -156,11 +196,11 @@ skills:
         description: ''
         percent: 60
         icon: person-simple-walk
-      - name: Cats
+      - name: Basketball
         description: ''
         percent: 100
         icon: cat
-      - name: Photography
+      - name: Workout
         description: ''
         percent: 80
         icon: camera
