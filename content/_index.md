@@ -20,8 +20,8 @@ sections:
         url: uploads/resume.pdf
     design:
       css_class: dark
-      background:
-        color: zinc
+      # background:
+      #   color: zinc
         # image:
           # Add your image background to `assets/media/`.
         #   filename: stacked-peaks.svg
