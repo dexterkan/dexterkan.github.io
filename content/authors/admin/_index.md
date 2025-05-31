@@ -199,20 +199,6 @@ languages:
   - name: Japanese
     percent: 25
 
-hobbies:
-  - name: Hiking
-    description: ''
-    percent: 60
-    icon: person-simple-walk
-  - name: Basketball
-    description: ''
-    percent: 100
-    icon: cat
-  - name: Workout
-    description: ''
-    percent: 80
-    icon: camera
-
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.

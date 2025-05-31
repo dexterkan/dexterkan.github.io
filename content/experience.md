@@ -37,5 +37,5 @@ sections:
     id: section-hobbies
     content:
       title: Hobbies
-      username: admin
+      username: dexter
 ---
