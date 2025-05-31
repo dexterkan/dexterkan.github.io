@@ -19,6 +19,7 @@ sections:
       # Education or Experience section first?
       is_education_first: false
   - block: resume-skills
+    id: section-skills
     content:
       title: Skills
       username: admin
@@ -33,6 +34,7 @@ sections:
       title: Languages
       username: admin
   - block: resume-skills
+    id: section-hobbies
     content:
       title: Hobbies
       username: admin

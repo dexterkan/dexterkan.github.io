@@ -40,7 +40,7 @@ profiles:
   - icon: brands/github
     url: https://github.com/dexterkan
   - icon: brands/linkedin
-    url: https://www.linkedin.com/dexterkan/
+    url: https://www.linkedin.com/dexter-kan/
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=ZoeW9jkAAAAJ&hl=en
   - icon: academicons/orcid
@@ -190,10 +190,10 @@ skills:
         icon: chart-bar
 
 languages:
-  - name: English
+  - name: Chinese
     percent: 100
   - name: English
-    percent: 75
+    percent: 90
   - name: Taiwanese
     percent: 50
   - name: Japanese
