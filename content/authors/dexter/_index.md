@@ -1,3 +1,4 @@
+---
 skills:
   - name: Hiking
     description: ''
@@ -11,3 +12,4 @@ skills:
     description: ''
     percent: 80
     icon: camera
+---

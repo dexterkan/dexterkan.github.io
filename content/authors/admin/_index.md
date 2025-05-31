@@ -193,11 +193,11 @@ languages:
   - name: Chinese
     percent: 100
   - name: English
-    percent: 90
+    percent: 100
   - name: Taiwanese
     percent: 50
   - name: Japanese
-    percent: 25
+    percent: 20
 
 # Awards.
 #   Add/remove as many awards below as you like.
