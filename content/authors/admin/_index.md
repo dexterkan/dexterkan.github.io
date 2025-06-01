@@ -97,6 +97,17 @@ work:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - position: Teaching Assistant
+    company_name:  USC
+    company_url: 'https://www.usc.edu/'
+    company_logo: 'icon.png'
+    date_start: 2023-02-10
+    date_end: ''
+    summary: |2-
+      Responsibilities include:
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
   - position: Research Assistant
     company_name: Academia Sinica
     company_url: 'https://homepage.citi.sinica.edu.tw/~rchang/'
