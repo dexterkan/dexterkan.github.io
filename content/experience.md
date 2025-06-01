@@ -33,7 +33,7 @@ sections:
     content:
       title: Languages
       username: admin
-  - block: resume-skills
+  - block: resume-languages
     id: section-hobbies
     content:
       title: Hobbies

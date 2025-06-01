@@ -44,7 +44,7 @@ profiles:
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=ZoeW9jkAAAAJ&hl=en
   - icon: academicons/orcid
-    url: https://orcid.org/my-orcid?orcid=0000-0002-2251-1499
+    url: https://orcid.org/0000-0002-2251-1499
 
 interests:
   - Privacy-preserving and Distributed Machine Learning Systems

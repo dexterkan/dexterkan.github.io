@@ -40,7 +40,7 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: 'You are very welcome to contact me regarding my research and collaboration. I can be contacted directly at teyikan@usc.edu'
     license:
       enable: true
       allow_derivatives: false
