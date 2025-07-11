@@ -254,9 +254,12 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Viterbi Graduate Fellowship, Fall 2022.
+  - title: Viterbi Graduate Fellowship
     date: '2022-01-18'
     awarder: Viterbi School of Engineering
+  - title: Undergraduate Overseas Research Presentation Grant
+    date: '2018-12-18'
+    awarder: National Taiwan University
   # - title: Blockchain Fundamentals
   #   url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
   #   date: '2023-07-01'
