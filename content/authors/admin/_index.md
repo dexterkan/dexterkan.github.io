@@ -114,10 +114,15 @@ work:
     date_start: 2023-02-10
     date_end: ''
     summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Privacy-Preserving ML Systems [WACV-25]
+      - Developed a pipeline that includes a sensitive object detector, scheduler, and obfuscator to protect user privacy while maintaining task utility during ML inference for vision tasks.
+      - Leveraged distributed remote servers for privacy-preserved image processing, ensuring a seamless user experience while safeguarding private information.
+      - Experiment results show that our proposed system achieves approximately $30\%$ utility boost without compromising user privacy and can operate at around $25$ fps.
+
+      Online distributed offloading of time-sensitive vehicular tasks in edge-cloud systems [[TVT24](https://ieeexplore.ieee.org/abstract/document/11051063)]
+      - Investigated task offloading mechanism in edge-cloud computing systems for time-sensitive ML tasks to support future advanced driving assistance systems and automated driving systems.
+      - Developed a threshold-based online distributed offloading and resource allocation mechanism (TODORA) to reduce task duration by optimizing task offloading decisions and resource allocation.
+      - Verified by simulation, TODORA outperforms the state-of-the-art schemes. 
   - position: Teaching Assistant
     company_name:  USC
     company_url: 'https://www.usc.edu/'
@@ -135,6 +140,8 @@ work:
     date_start: 2020-09-21
     date_end: 2022-05-20
     summary: |
+      Research on wireless communication systems, under the supervision of [Prof. Ronald Y. Chang](https://homepage.citi.sinica.edu.tw/pages/rchang/contact_zh.html)
+
       Intelligent Reflecting Surface (IRS) [[TVT-23](https://ieeexplore.ieee.org/document/10041729), [GC-21](https://ieeexplore.ieee.org/abstract/document/9682048)]:
       - Proposed a coexistence system that a multiuser downlink MISO communication is assisted by a coexisting full-duplex IRS and half-duplex decode-and-forward relay.
       - Designed an alternating optimization based algorithm to maximize the sum-rate of all the users by jointly optimizing the active beamforming at the base station, the active beamforming at the relay, and the passive beamforming at the IRS.
@@ -144,6 +151,11 @@ work:
       - Devised a novel deep reinforcement learning (DRL)-enhanced method, which incorporates DRL into Monte Carlo tree search (MCTS), to improve MIMO detection.
       - Verified by simulations that our DRL-based scheme achieves significant performance and complexity advantages over the original MCTS detection algorithm under varying channel conditions.
 
+      Academia Sinica-MediaTek Collaborative Project
+      - Proposed and collaborated with MediaTek research team on the project, “AI-Enabled Hybrid Reconfigurable Intelligent Surface (RIS) and Relay Systems for 6G Communications.”
+      - Designed a hybrid RIS/relay system where RISs and traditional relays coexist to enhance system performance in terms of energy efficiency and sum-rate.
+      - Analyzed the characteristics of hybrid RIS/relay systems at mmWave and THz hands.
+
   - position: Summer Intern
     company_name: Foxconn Technology Group
     company_url: 'https://www.foxconn.com/en-us'
@@ -152,9 +164,9 @@ work:
     date_end: 2017-08-31
     summary: |
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Implemented a commercial MEC infrastructure within a 15-person team to enable lifecycle management of MEC services.
+      - Design a hybrid fog/cloud platform for facial detection and video streaming.
+      - Contributed to building a face-based access control and attendance system powered by MEC via OpenStack.
   - position: Student Researcher
     company_name: WMNL at NTU
     company_url: 'https://wmnlab.ee.ntu.edu.tw'
@@ -162,10 +174,12 @@ work:
     date_start: 2016-08-01
     date_end: 2018-12-31
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Research on multi-access edge computing systems, under the supervision of [Prof. Hung-Yu Wei](https://wmnlab.ee.ntu.edu.tw/people.html)
+
+      Multi-access Edge Computing (MEC) Systems [[GC-18](https://ieeexplore.ieee.org/abstract/document/8644384), [APWCS-18](https://wmnlab.ee.ntu.edu.tw/publication/Conference/[C]2018_APWCSQoS-aware-Fog-Computing-System-Load-Distribution-and-Task-Offloading.pdf), [WOCC-18](https://ieeexplore.ieee.org/abstract/document/8372737)]
+      - Investigated task offloading in MEC system and developed Quality of Service (QoS)-aware MEC systems for both single-server and multi-server scenarios to reduce execution latency of mobile applications.
+      - Introduced a two-stage algorithm for QoS maximization by optimizing task offloading, resource allocation, and load distribution.
+      - Numerically examined the superior performance of the proposed algorithm over several benchmarks.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
