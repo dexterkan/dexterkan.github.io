@@ -59,32 +59,53 @@ education:
     date_start: 2022-08-22
     date_end: ''
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Konstantinos Psounis](https://sites.usc.edu/kpsounis/). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      Research on machine learning and artificial intelligence applications for mobile systems, under the supervision of [Prof Konstantinos Psounis](https://sites.usc.edu/kpsounis/).
+
+      Research topics include:
+      - Task scheduling for machine learning tasks in vehicular networks
+      - Privacy-preserving machine learning system design
+      - Development of edge-friendly machine learning models
+
+      Courses include:
+      - Advanced Computer Vision
+      - Machine Learning
+      - Artificial Intelligence
+      - Operating Systems
+      - Algorithms
+      - Wireless Networks
+      - Stochastic Network Optimization
     button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
+      text: 'Download CV'
+      url: uploads/resume.pdf
   - area: MS Electrical and Computer Engineering
     institution: University of California, Los Angeles (UCLA)
     date_start: 2019-09-23
     date_end: 2020-12-18
     summary: |
-      GPA: 3.8/4.0
+      GPA: 3.74/4.00
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Courses include:
+      - Linear Programming
+      - Convex Optimization
+      - Neural Networks and Deep learning
+      - Reinforcement Learning
+      - Internet Architecture and Protocals
+      - Large Scale Data Mining
   - area: BS Electrical Engineering
     institution: National Taiwan University (NTU)
     date_start: 2014-09-15
     date_end: 2019-01-18
     summary: |
-      GPA: 3.4/4.0
+      GPA: 3.89/4.30
       
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Courses include:
+      - Data Structure and Programming
+      - Digital Speech Processing
+      - Computer Networks
+      - Wireless and Mobile Networking
+      - Algorithms
+      - Network Planning and Management
+      - Desing of Wireless Communication Networks
 work:
   - position: Research Assistant
     company_name: NetPD at USC
@@ -104,10 +125,9 @@ work:
     date_start: 2023-02-10
     date_end: ''
     summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Courses include:
+      - USC EE 450 Introduction to Computer Networks (Spring, Summer, and Fall 2023)
+      - USC EE 503 Probability for Electrical and Computer Engineers (Fall 2022)
   - position: Research Assistant
     company_name: Academia Sinica
     company_url: 'https://homepage.citi.sinica.edu.tw/~rchang/'
@@ -115,10 +135,20 @@ work:
     date_start: 2020-09-21
     date_end: 2022-05-20
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Intelligent Reflecting Surface (IRS) [TVT-23, GC-21]:
+      - Proposed a coexistence system that a multiuser downlink MISO communication is assisted by a coexisting full-duplex IRS and half-duplex decode-and-forward relay.
+      - Designed an alternating optimization based algorithm to maximize the sum-rate of all the users by jointly optimizing the active beamforming at the base station, the active beamforming at the relay, and the passive beamforming at the IRS.
+      - Validated the superiority of the proposed coexistence system by simulations and provided insightful discussion about the tradeoffs in the design of joint beamforming.
+    
+    button:
+      text: 'Download TVT-23'
+      url: uploads/resume.pdf
+
+    summary: |
+      Multiple-input multiple-output (MIMO) Detection [VTC-22]:
+      - Devised a novel deep reinforcement learning (DRL)-enhanced method, which incorporates DRL into Monte Carlo tree search (MCTS), to improve MIMO detection.
+      - Verified by simulations that our DRL-based scheme achieves significant performance and complexity advantages over the original MCTS detection algorithm under varying channel conditions.
+
   - position: Summer Intern
     company_name: Foxconn Technology Group
     company_url: 'https://www.foxconn.com/en-us'
