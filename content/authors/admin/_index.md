@@ -135,12 +135,12 @@ work:
     date_start: 2020-09-21
     date_end: 2022-05-20
     summary: |
-      Intelligent Reflecting Surface (IRS) [TVT-23, GC-21]:
+      Intelligent Reflecting Surface (IRS) [[TVT-23](https://ieeexplore.ieee.org/document/10041729), [GC-21](https://ieeexplore.ieee.org/abstract/document/9682048)]:
       - Proposed a coexistence system that a multiuser downlink MISO communication is assisted by a coexisting full-duplex IRS and half-duplex decode-and-forward relay.
       - Designed an alternating optimization based algorithm to maximize the sum-rate of all the users by jointly optimizing the active beamforming at the base station, the active beamforming at the relay, and the passive beamforming at the IRS.
       - Validated the superiority of the proposed coexistence system by simulations and provided insightful discussion about the tradeoffs in the design of joint beamforming.
     
-      Multiple-input multiple-output (MIMO) Detection [VTC-22](https://ieeexplore.ieee.org/abstract/document/9860565?casa_token=iwctWASLlAUAAAAA:aHmEQYR6ZMQMNa5CEzny9B_YpT8d48gRvEwPPLhqrw16u7-mxNCOtCMUJNrrv2g6wSzyhGOmDQ):
+      Multiple-input multiple-output (MIMO) Detection [[VTC-22](https://ieeexplore.ieee.org/abstract/document/9860565)]:
       - Devised a novel deep reinforcement learning (DRL)-enhanced method, which incorporates DRL into Monte Carlo tree search (MCTS), to improve MIMO detection.
       - Verified by simulations that our DRL-based scheme achieves significant performance and complexity advantages over the original MCTS detection algorithm under varying channel conditions.
 
