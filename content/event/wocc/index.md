@@ -1,24 +1,24 @@
 ---
-title: Example Talk
+title: 'Task Offloading and Resource Allocation in Mobile-Edge Computing System'
 
-event: Hugo Blox Builder Conference
-event_url: https://example.org
+event: IEEE Wireless and Optical Communications Conferences
+event_url: https://www.wocc.org/wocc2018/
 
-location: Hugo Blox Builder HQ
+location: National Dong Hwa University
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
+  street: No. 1, Section 2, Daxue Rd, Shoufeng Township
+  city: Hualien County
+  # region: CA
+  postcode: '974'
+  country: Taiwan
 
-summary: An example talk using Hugo Blox Builder's Markdown slides feature.
-abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
+summary: An oral presentation introduces our work on mobile-edge computing system at WOCC.
+abstract: 'Mobile-edge computing (MEC) system is a new paradigm to provide cloud computing capacities at the edge of radio access network (RAN) which is close to mobile users. In this paper, we aim to promote QoS by offloading the computationally intensive tasks to the MEC server. There are many papers discuss this issue. Nevertheless, most of them just think over one-dimension resource allocation, radio resources or computation resources, and make the MEC system less effective. Hence, we consider the allocation of both radio resources and computation resources of the MEC server to increase system effectiveness. Apart from this, we take the variety of tasks’ requirements into account. That is, we assume that different tasks may have different delay requirements. We formulate this problem as a cost minimization problem and design a heuristic algorithm to address it. Numerical results show that our algorithm can greatly promote QoS.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2030-06-01T13:00:00Z'
-date_end: '2030-06-01T15:00:00Z'
+date: '2018-05-01T15:00:00Z'
+date_end: '2018-05-01T16:00:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
@@ -33,7 +33,7 @@ tags: []
 featured: false
 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  caption: ''
   focal_point: Right
 
 #links:
@@ -41,10 +41,10 @@ image:
 #    icon_pack: fab
 #    name: Follow
 #    url: https://twitter.com/georgecushen
-url_code: 'https://github.com'
-url_pdf: ''
-url_slides: 'https://slideshare.net'
-url_video: 'https://youtube.com'
+# url_code: 'https://github.com'
+url_pdf: uploads/kan-wocc-2018
+url_slides: uploads/wocc
+# url_video: 'https://youtube.com'
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
@@ -61,15 +61,3 @@ slides: ""
 projects:
   - example
 ---
-
-{{% callout note %}}
-Click on the **Slides** button above to view the built-in slides feature.
-{{% /callout %}}
-
-Slides can be added in a few ways:
-
-- **Create** slides using Hugo Blox Builder's [_Slides_](https://docs.hugoblox.com/reference/content-types/) feature and link using `slides` parameter in the front matter of the talk file
-- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
-- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://docs.hugoblox.com/reference/markdown/).
-
-Further event details, including [page elements](https://docs.hugoblox.com/reference/markdown/) such as image galleries, can be added to the body of this page.
