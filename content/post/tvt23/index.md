@@ -1,7 +1,7 @@
 ---
 title: 🎉 Paper accepted for publication in IEEE Transactions on Vehicular Technology (TVT)
 summary: Our work titled "Hybrid Intelligent Reflecting Surface and Classical Relay Assisted Multiuser MISO Systems" has been accepted by IEEE Transactions on Vehicular Technology.
-date: 2025-02-04
+date: 2023-02-04
 tags:
   - IEEE TVT 23
   - Markdown
