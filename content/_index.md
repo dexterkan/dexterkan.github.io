@@ -35,11 +35,11 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        My research interests span the fields of machine learning and networking systems, including but not limited to privacy in AI/ML, wireless communications and networks, fog/edge computing and networking, intelligent reflecting surface (IRS)-aided communications, and multi-input multi-output (MIMO) communications.
+        <div style='text-align: justify;'> My research interests span the fields of machine learning and networking systems, including but not limited to privacy in AI/ML, wireless communications and networks, fog/edge computing and networking, intelligent reflecting surface (IRS)-aided communications, and multi-input multi-output (MIMO) communications.
 
         Currently, I'm working on building privacy-preserving and distributed systems.
         
-        Please reach out to collaborate 😃
+        Please reach out to collaborate 😃 </div>
     design:
       columns: '1'
   - block: collection
