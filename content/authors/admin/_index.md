@@ -274,6 +274,6 @@ awards:
 
 ## About Me
 
-As a dedicated PhD Fellow at USC, my research focuses on privacy-preserving machine learning systems and efficient task scheduling within vehicular edge networks. My teaching experience, including courses in probability and computer networking, has strengthened my ability to communicate with colleagues, convey complex technical concepts clearly, and reinforce my expertise in computer networking.
+<p style='text-align: justify;'>As a dedicated PhD Fellow at USC, my research focuses on privacy-preserving machine learning systems and efficient task scheduling within vehicular edge networks. My teaching experience, including courses in probability and computer networking, has strengthened my ability to communicate with colleagues, convey complex technical concepts clearly, and reinforce my expertise in computer networking.
 
-Before joining USC, I earned my B.S. degree in Electrical Engineering from NTU, Taiwan, in 2019, and my M.S. degree in Electrical and Computer Engineering from UCLA in 2020. I also worked as a Research Assistant in wireless communications at Academia Sinica, Taiwan.
+Before joining USC, I earned my B.S. degree in Electrical Engineering from NTU, Taiwan, in 2019, and my M.S. degree in Electrical and Computer Engineering from UCLA in 2020. I also worked as a Research Assistant in wireless communications at Academia Sinica, Taiwan.</p>
