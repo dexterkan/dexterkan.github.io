@@ -12,8 +12,8 @@ address:
   postcode: '5546'
   country: United Arab Emirates
 
-summary: An example talk using Hugo Blox Builder's Markdown slides feature.
-abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
+summary: An oral presentation introduces our work on mobile egde computing system at GLOBECOM.
+abstract: 'Mobile/Multi-access Edge Computing (MEC) system is a kind of fog computing system to provide computation resources at the edge of Radio Access Network (RAN). In this paper, we discuss offloading decision and resource allocation of both radio resources and computation resources which are both the crucial issues in MEC system. Moreover, we study a multi-server system which is more consistent with practical MEC system in the future rather than single-server system, and load distribution is introduced into our system to leverage the computation resources of MEC servers effectively. The objective of our work is to promote QoS, and thus we formulate a cost minimization problem by modeling QoS of the end users with our self-defined cost function. A heuristic algorithm is developed and compared with other schemes. Numerical results verify that our proposed algorithm significantly enhances QoS and gains a large performance gap over other schemes.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -33,7 +33,7 @@ tags: []
 featured: false
 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  caption: ''
   focal_point: Right
 
 #links:
