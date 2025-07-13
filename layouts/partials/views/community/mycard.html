@@ -1,0 +1,32 @@
+<a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="mb-5 block w-full">
+  <div class="max-w-6xl mx-auto w-full md:flex">
+    <!-- Image Container -->
+    <div class="md:flex-shrink-0 overflow-hidden md:w-1/3">
+      {{ with $resource }}
+        {{ $image := .Fill (printf "800x800 %s" $anchor) }}
+        {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
+        <img 
+          class="h-48 w-full object-cover hover:scale-125 transition duration-500 cursor-pointer"
+          loading="lazy" 
+          src="{{ $image.RelPermalink }}" 
+          height="{{ $image.Height }}" 
+          width="{{ $image.Width }}" 
+          alt="{{ $item.Title | plainify }}"
+        >
+      {{ end }}
+    </div>
+
+    <!-- Text Content -->
+    <div class="p-8 w-full">
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">
+        {{ $item.Title }}
+      </div>
+      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+        {{ ($item.Params.summary | default $item.Summary) | plainify | htmlUnescape | chomp -}}
+      </p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">
+        {{- $item.Date | time.Format (site.Params.locale.date_format | default ":date_long") -}}
+      </p>
+    </div>
+  </div>
+</a>

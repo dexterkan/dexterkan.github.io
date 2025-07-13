@@ -53,7 +53,8 @@ sections:
     design:
       # view: article-grid
       # columns: 1
-      view: card
+      # view: card
+      view: community/mycard
   - block: collection
     content:
       title: Recent Publications
