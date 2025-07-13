@@ -8,28 +8,26 @@
 {{ end }}
 
 {{ $resource := partial "functions/get_featured_image.html" $item }}
-{{ $anchor := $item.Params.image.focal_point | default "Center" }}
 
 <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="mb-5 block w-full">
-  <div class="max-w-6xl mx-auto w-full md:flex">
+  <div class="max-w-6xl mx-auto w-full md:flex bg-white dark:bg-zinc-900 rounded-xl border border-gray-100 dark:border-gray-700 shadow-md overflow-hidden">
+
     <!-- Image Container -->
-    <div class="md:flex-shrink-0 overflow-hidden md:w-1/3">
+    <div class="md:w-1/3 w-full overflow-hidden">
       {{ with $resource }}
-        {{ $image := .Fill (printf "800x800 %s" $anchor) }}
-        {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
         <img 
-          class="h-48 w-full object-cover hover:scale-125 transition duration-500 cursor-pointer"
+          class="w-full h-auto object-contain hover:scale-105 transition duration-500 cursor-pointer" 
           loading="lazy" 
-          src="{{ $image.RelPermalink }}" 
-          height="{{ $image.Height }}" 
-          width="{{ $image.Width }}" 
+          src="{{ .RelPermalink }}" 
+          height="{{ .Height }}" 
+          width="{{ .Width }}" 
           alt="{{ $item.Title | plainify }}"
         >
       {{ end }}
     </div>
 
     <!-- Text Content -->
-    <div class="p-8 w-full">
+    <div class="p-6 md:w-2/3 w-full">
       <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">
         {{ $item.Title }}
       </div>
@@ -40,5 +38,6 @@
         {{- $item.Date | time.Format (site.Params.locale.date_format | default ":date_long") -}}
       </p>
     </div>
+
   </div>
 </a>
