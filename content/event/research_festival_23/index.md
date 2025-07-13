@@ -12,7 +12,7 @@ address:
   postcode: '90089'
   country: United States
 
-summary: An poster preseantatio for our ongoing work on task assignment and resource allocation
+summary: Shared our ongoing work on task assignment and resource allocation through a poster presentation
 abstract: "<div style='text-align: justify;'> With the integration of several types of sensors, vehicles are able to detect and identify objects in their surrounding, enabling them to provide vital road information to Automated Driving Systems (ADS) or drivers using Advanced Driving Assistance Systems (ADAS) to perform functions such as crash avoidance, crosswalk detection, navigation, etc. Recently, it has been proposed to identify, process, and even display information using machine learning (ML) modules. However, performing ML tasks within vehicles is challenging due to their resource-intensive and delay-sensitive nature. To this end, we investigate an edge-cloud-assisted system and a joint offloading and resource allocation mechanism to reduce task duration by optimizing task offloading decisions and resource allocation.</div>"
 
 # Talk start and end times.

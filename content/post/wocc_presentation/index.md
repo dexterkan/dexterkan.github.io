@@ -1,5 +1,5 @@
 ---
-title: 🎉 Presented Research on MEC at IEEE Wireless and Optical Communication Conference (WOCC)
+title: 🙋🏻 Presented Research on MEC at IEEE Wireless and Optical Communication Conference (WOCC)
 summary: "<div style='text-align: justify;'>Excited to give a presentation at the 2018 IEEE Wireless and Optical Communication Conference (WOCC) on our work titled “Task Offloading and Resource Allocation in Mobile-Edge Computing Systems.”</div>"
 date: 2018-05-01
 tags:
