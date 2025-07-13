@@ -1,5 +1,5 @@
 ---
-title: "<div style='text-align: justify;'>Online distributed offloading of time‑sensitive vehicular tasks in edge‑cloud systems</div>"
+title: "Online distributed offloading of time‑sensitive vehicular tasks in edge‑cloud systems"
 authors:
 - Te-Yi Kan
 - Konstantinos Psounis
