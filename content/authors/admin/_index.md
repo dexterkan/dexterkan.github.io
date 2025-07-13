@@ -110,20 +110,19 @@ work:
   - position: Research Assistant
     company_name: NetPD at USC
     company_url: 'https://sites.usc.edu/kpsounis/'
-    company_logo: uploads/usc
+    company_logo: ''
     date_start: 2023-02-10
     date_end: ''
     summary: |2-
-      <div style='text-align: justify;'>
       Privacy-Preserving ML Systems [WACV-25]
-      - Developed a pipeline that includes a sensitive object detector, scheduler, and obfuscator to protect user privacy while maintaining task utility during ML inference for vision tasks.
+      - <div style='text-align: justify;'> Developed a pipeline that includes a sensitive object detector, scheduler, and obfuscator to protect user privacy while maintaining task utility during ML inference for vision tasks. </div>
       - Leveraged distributed remote servers for privacy-preserved image processing, ensuring a seamless user experience while safeguarding private information.
       - Experiment results show that our proposed system achieves approximately $30\%$ utility boost without compromising user privacy and can operate at around $25$ fps.
 
       Online distributed offloading of time-sensitive vehicular tasks in edge-cloud systems [[TVT24](https://ieeexplore.ieee.org/abstract/document/11051063)]
       - Investigated task offloading mechanism in edge-cloud computing systems for time-sensitive ML tasks to support future advanced driving assistance systems and automated driving systems.
       - Developed a threshold-based online distributed offloading and resource allocation mechanism (TODORA) to reduce task duration by optimizing task offloading decisions and resource allocation.
-      - Verified by simulation, TODORA outperforms the state-of-the-art schemes. </div>
+      - Verified by simulation, TODORA outperforms the state-of-the-art schemes.
   - position: Teaching Assistant
     company_name:  USC
     company_url: 'https://www.usc.edu/'
