@@ -51,9 +51,9 @@ sections:
           - publication
         featured_only: true
     design:
-      # view: article-grid
-      # columns: 2
-      view: showcase
+      view: article-grid
+      columns: 1
+      # view: showcase
   - block: collection
     content:
       title: Recent Publications
@@ -72,8 +72,9 @@ sections:
         folders:
           - event
     design:
-      view: article-grid
-      columns: 1
+      # view: article-grid
+      # columns: 1
+      view: compact
   - block: collection
     id: news
     content:
