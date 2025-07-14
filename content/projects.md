@@ -30,10 +30,8 @@ sections:
         <div class="flex flex-col lg:flex-row flex-wrap justify-between mx-auto gap-6 px-6 md:px-0">
           <!-- Row 1 -->
           <div class="w-full">
-            <div class="mb-5 text-xl font-bold text-primary-700 dark:text-primary-200 flex justify-between items-center">
-              <span>Operating System Implementation</span>
-              <span>Spring 2024</span>
-            </div>
+            <div class="mb-5 text-xl font-bold text-primary-700 dark:text-primary-200 flex justify-between items-center">Operating System Implementation</div>
+            <div class="mb-5 text-xl font-bold text-gray-900 dark:text-white flex justify-between items-center">Spring 2024</div>
             <ul class="space-y-2 text-gray-700 dark:text-gray-300" style="text-align: justify;">
               <li>Completed Brown University's kernel assignment project to build a simple operating system called Weenix.</li>
               <li>Implemented essential elements for an operating systems, including but not limited to process, thread, scheduler, virtual file system, and virtual memory.</li>
