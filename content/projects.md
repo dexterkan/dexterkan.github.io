@@ -29,8 +29,8 @@ sections:
       text: |
         <div class="flex flex-col lg:flex-row flex-wrap justify-between mx-auto gap-6 px-6 md:px-0">
           <!-- Row 1 -->
-          <div class="w-full lg:w-1/3">
-            <div class="mb-5 text-xl font-bold text-gray-900 dark:text-white flex justify-between items-center">
+          <div class="w-full">
+            <div class="mb-5 text-xl font-bold text-primary-700 dark:text-primary-200 flex justify-between items-center">
               <span>Operating System Implementation</span>
               <span>Spring 2024</span>
             </div>
@@ -42,7 +42,7 @@ sections:
 
           <!-- Row 2 -->
           <div class="w-full">
-            <div class="mb-5 text-xl font-bold text-gray-900 dark:text-white flex justify-between items-center">
+            <div class="mb-5 text-xl font-bold text-primary-700 dark:text-primary-200 flex justify-between items-center">
               <span>Reinforcement Learning (RL)-Based Mechanism for Loss Reduction during the COVID-19 Outbreak</span>
               <span>Spring2020</span>
             </div>
@@ -54,7 +54,7 @@ sections:
 
           <!-- Row 3 -->
           <div class="w-full">
-            <div class="mb-5 text-xl font-bold text-gray-900 dark:text-white flex justify-between items-center">
+            <div class="mb-5 text-xl font-bold text-primary-700 dark:text-primary-200 flex justify-between items-center">
               <span>Generative Adversarial Imitation Learning (GAIL)</span>
               <span>Spring 2020</span>
             </div>
