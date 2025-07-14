@@ -34,9 +34,9 @@ sections:
               <span>Operating System Implementation</span>
               <span>Spring 2024</span>
             </div>
-            <ul class="space-y-2 text-gray-700 dark:text-gray-300">
-              <li class="text-justify">Completed Brown University's kernel assignment project to build a simple operating system called Weenix.</li>
-              <li class="text-justify">Implemented essential elements for an operating systems, including but not limited to process, thread, scheduler, virtual file system, and virtual memory.</li>
+            <ul class="space-y-2 text-gray-700 dark:text-gray-300" style="text-align: justify;">
+              <li>Completed Brown University's kernel assignment project to build a simple operating system called Weenix.</li>
+              <li>Implemented essential elements for an operating systems, including but not limited to process, thread, scheduler, virtual file system, and virtual memory.</li>
             </ul>
           </div>
 
