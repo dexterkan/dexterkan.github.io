@@ -59,7 +59,7 @@ sections:
             </ul>
           </div>
         </div>
-  - block: resume-awardså
+  - block: resume-awards
     content:
       title: Awards
       username: admin
