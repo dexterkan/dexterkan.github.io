@@ -40,10 +40,8 @@ sections:
 
           <!-- Row 2 -->
           <div class="w-full">
-            <div class="mb-5 text-xl font-bold text-primary-700 dark:text-primary-200 flex justify-between items-center">
-              <span>Reinforcement Learning (RL)-Based Mechanism for Loss Reduction during the COVID-19 Outbreak</span>
-              <span>Spring2020</span>
-            </div>
+            <div class="uppercase tracking-wide mb-5 text-xl font-bold text-primary-700 dark:text-primary-200 flex justify-between items-center">Reinforcement Learning (RL)-Based Mechanism for Loss Reduction during the COVID-19 Outbreak</div>
+            <div class="mb-5 text-base font-bold text-gray-900 dark:text-white flex justify-between items-center">Spring 2020</div>
             <ul class="space-y-2 text-gray-700 dark:text-gray-300">
               <li><i class="fas fa-tools mr-2 text-primary-600"></i>Developed RL-based algorithms to provide appropriate business strategies for the food and beverage industry.</li>
               <li><i class="fas fa-laptop-code mr-2 text-primary-600"></i>Simulated the proposed RL-based algorithms to verify the superiority of our proposed methods in comparison to baselines.</li>
@@ -52,10 +50,8 @@ sections:
 
           <!-- Row 3 -->
           <div class="w-full">
-            <div class="mb-5 text-xl font-bold text-primary-700 dark:text-primary-200 flex justify-between items-center">
-              <span>Generative Adversarial Imitation Learning (GAIL)</span>
-              <span>Spring 2020</span>
-            </div>
+            <div class="uppercase tracking-wide mb-5 text-xl font-bold text-primary-700 dark:text-primary-200 flex justify-between items-center">Generative Adversarial Imitation Learning (GAIL)</div>
+            <div class="mb-5 text-base font-bold text-gray-900 dark:text-white flex justify-between items-center">Spring 2020</div>
             <ul class="space-y-2 text-gray-700 dark:text-gray-300">
               <li><i class="fas fa-server mr-2 text-primary-600"></i>Implemented an imitation learning algorithm that can be scaled up to large and high-dimensional environments with Python.</li>
               <li><i class="fas fa-cloud mr-2 text-primary-600"></i>Evaluated the imitation algorithm in the OpenAI environment such as Pendulum and Cartpole and showed that the proposed GAIL algorithm outperforms the common baseline, Behavior Cloning.</li>
