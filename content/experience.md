@@ -25,7 +25,7 @@ sections:
       title: Skills
       username: admin
       text: |
-        <div class="flex flex-col lg:flex-row flex-wrap items-start max-w-prose mx-auto gap-3 px-6 md:px-0">
+        <div class="flex flex-col lg:flex-row flex-wrap justify-between mx-auto gap-6 px-6 md:px-0 max-w-screen-lg">
           <!-- Column 1 -->
           <div class="w-full lg:w-1/3">
             <div class="mb-5 text-xl font-bold text-gray-900 dark:text-white">Programming</div>
