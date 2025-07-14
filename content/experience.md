@@ -27,7 +27,7 @@ sections:
       text: |
         <div class="flex flex-col lg:flex-row flex-wrap justify-between mx-auto gap-6 px-6 md:px-0 max-w-screen-lg">
           <!-- Column 1 -->
-          <div class="w-full lg:w-1/3">
+          <div class="w-full lg:w-1/2">
             <div class="mb-5 text-xl font-bold text-gray-900 dark:text-white">Programming</div>
             <ul class="space-y-2 text-gray-700 dark:text-gray-300">
               <li><i class="fas fa-code mr-2 text-primary-600"></i>Python</li>
@@ -38,7 +38,7 @@ sections:
           </div>
 
           <!-- Column 2 -->
-          <div class="w-full lg:w-1/3">
+          <div class="w-full lg:w-1/2">
             <div class="mb-5 text-xl font-bold text-gray-900 dark:text-white">Tools & Frameworks</div>
             <ul class="space-y-2 text-gray-700 dark:text-gray-300">
               <li><i class="fas fa-tools mr-2 text-primary-600"></i>TensorFlow</li>
@@ -47,18 +47,6 @@ sections:
               <li><i class="fas fa-project-diagram mr-2 text-primary-600"></i>Keras</li>
             </ul>
           </div>
-
-          <!-- Column 3 -->
-          <div class="w-full lg:w-1/3">
-            <div class="mb-5 text-xl font-bold text-gray-900 dark:text-white">Infrastructure</div>
-            <ul class="space-y-2 text-gray-700 dark:text-gray-300">
-              <li><i class="fas fa-server mr-2 text-primary-600"></i>Docker</li>
-              <li><i class="fas fa-cloud mr-2 text-primary-600"></i>OpenStack</li>
-              <li><i class="fas fa-network-wired mr-2 text-primary-600"></i>Kubernetes</li>
-              <li><i class="fas fa-database mr-2 text-primary-600"></i>PostgreSQL</li>
-            </ul>
-          </div>
-        </div>
   - block: resume-awards
     content:
       title: Awards
