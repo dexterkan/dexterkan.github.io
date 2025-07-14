@@ -30,11 +30,11 @@ sections:
           <div class="w-full lg:w-1/3">
             <div class="mb-5 text-xl font-bold text-gray-900 dark:text-white">Programming</div>
             <ul class="space-y-2 text-gray-700 dark:text-gray-300">
-              <li><i class="fas fa-code mr-2 text-primary-600"></i>Python</li>
-              <li><i class="fas fa-code mr-2 text-primary-600"></i>C/C++</li>
-              <li><i class="fas fa-code mr-2 text-primary-600"></i>Java</li>
-              <li><i class="fas fa-code mr-2 text-primary-600"></i>R</li>
-              <li><i class="fas fa-code mr-2 text-primary-600"></i>Matlab</li>
+              <li>Python</li>
+              <li>C/C++</li>
+              <li>Java</li>
+              <li>R</li>
+              <li>Matlab</li>
             </ul>
           </div>
 
@@ -42,10 +42,10 @@ sections:
           <div class="w-full lg:w-1/3">
             <div class="mb-5 text-xl font-bold text-gray-900 dark:text-white">Deep Learning Frameworks & API</div>
             <ul class="space-y-2 text-gray-700 dark:text-gray-300">
-              <li><i class="fas fa-tools mr-2 text-primary-600"></i>PyTorch</li>
-              <li><i class="fas fa-laptop-code mr-2 text-primary-600"></i>TensorFlow</li>
-              <li><i class="fas fa-code-branch mr-2 text-primary-600"></i>Scikit-learn</li>
-              <li><i class="fas fa-code-branch mr-2 text-primary-600"></i>Keras</li>
+              <li>PyTorch</li>
+              <li>TensorFlow</li>
+              <li>Scikit-learn</li>
+              <li>Keras</li>
             </ul>
           </div>
 
@@ -53,9 +53,9 @@ sections:
           <div class="w-full lg:w-1/3">
             <div class="mb-5 text-xl font-bold text-gray-900 dark:text-white">Infrastructure & Deployment</div>
             <ul class="space-y-2 text-gray-700 dark:text-gray-300">
-              <li><i class="fas fa-tools mr-2 text-primary-600"></i>Openstack</li>
-              <li><i class="fas fa-laptop-code mr-2 text-primary-600"></i>Docker</li>
-              <li><i class="fas fa-code-branch mr-2 text-primary-600"></i>Kubernetes</li>
+              <li>Openstack</li>
+              <li>Docker</li>
+              <li>Kubernetes</li>
             </ul>
           </div>
         </div>
