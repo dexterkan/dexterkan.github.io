@@ -29,7 +29,7 @@ sections:
       text: |
         <div class="flex flex-col items-start w-full px-6 md:px-12 lg:px-20 xl:px-32 gap-6">
           <!-- Row 1 -->
-          <div class="w-full">
+          <div class="w-full max-w-screen-lg mx-auto px-4">
             <div class="mb-5 text-xl font-bold text-gray-900 dark:text-white flex justify-between items-center">
               <span>Operating System Implementation</span>
               <span>Spring 2024</span>
