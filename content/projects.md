@@ -27,9 +27,9 @@ sections:
       title: Selective Projects
       username: admin
       text: |
-        <div class="flex flex-col items-start w-full px-6 md:px-12 lg:px-20 xl:px-32 gap-6">
+        <div class="flex flex-col items-start w-full max-w-none px-4 sm:px-6 lg:px-12 xl:px-24 gap-6">
           <!-- Row 1 -->
-          <div class="w-screen px-8">
+          <div class="flex flex-col items-start w-full max-w-none px-4 sm:px-6 lg:px-12 xl:px-24 gap-6">
             <div class="mb-5 text-xl font-bold text-gray-900 dark:text-white flex justify-between items-center">
               <span>Operating System Implementation</span>
               <span>Spring 2024</span>
