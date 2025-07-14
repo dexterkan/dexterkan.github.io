@@ -31,29 +31,31 @@ sections:
             <div class="mb-5 text-xl font-bold text-gray-900 dark:text-white">Programming</div>
             <ul class="space-y-2 text-gray-700 dark:text-gray-300">
               <li><i class="fas fa-code mr-2 text-primary-600"></i>Python</li>
-              <li><i class="fas fa-code mr-2 text-primary-600"></i>JavaScript</li>
-              <li><i class="fas fa-code mr-2 text-primary-600"></i>Go</li>
-              <li><i class="fas fa-code mr-2 text-primary-600"></i>C++</li>
+              <li><i class="fas fa-code mr-2 text-primary-600"></i>C/C++</li>
+              <li><i class="fas fa-code mr-2 text-primary-600"></i>Java</li>
+              <li><i class="fas fa-code mr-2 text-primary-600"></i>R</li>
+              <li><i class="fas fa-code mr-2 text-primary-600"></i>Matlab</li>
             </ul>
           </div>
 
           <!-- 2nd Column -->
           <div class="w-full lg:w-1/3">
-            <div class="mb-5 text-xl font-bold text-gray-900 dark:text-white">Tools & Frameworks</div>
+            <div class="mb-5 text-xl font-bold text-gray-900 dark:text-white">Deep Learning Frameworks & API</div>
             <ul class="space-y-2 text-gray-700 dark:text-gray-300">
-              <li><i class="fas fa-tools mr-2 text-primary-600"></i>TensorFlow, PyTorch</li>
-              <li><i class="fas fa-laptop-code mr-2 text-primary-600"></i>Hugo, Tailwind CSS</li>
-              <li><i class="fas fa-code-branch mr-2 text-primary-600"></i>Git, Docker</li>
+              <li><i class="fas fa-tools mr-2 text-primary-600"></i>PyTorch</li>
+              <li><i class="fas fa-laptop-code mr-2 text-primary-600"></i>TensorFlow</li>
+              <li><i class="fas fa-code-branch mr-2 text-primary-600"></i>Scikit-learn</li>
+              <li><i class="fas fa-code-branch mr-2 text-primary-600"></i>Keras</li>
             </ul>
           </div>
 
           <!-- 3rd Column -->
           <div class="w-full lg:w-1/3">
-            <div class="mb-5 text-xl font-bold text-gray-900 dark:text-white">Tools & Frameworks</div>
+            <div class="mb-5 text-xl font-bold text-gray-900 dark:text-white">Infrastructure & Deployment</div>
             <ul class="space-y-2 text-gray-700 dark:text-gray-300">
-              <li><i class="fas fa-tools mr-2 text-primary-600"></i>TensorFlow, PyTorch</li>
-              <li><i class="fas fa-laptop-code mr-2 text-primary-600"></i>Hugo, Tailwind CSS</li>
-              <li><i class="fas fa-code-branch mr-2 text-primary-600"></i>Git, Docker</li>
+              <li><i class="fas fa-tools mr-2 text-primary-600"></i>Openstack</li>
+              <li><i class="fas fa-laptop-code mr-2 text-primary-600"></i>Docker</li>
+              <li><i class="fas fa-code-branch mr-2 text-primary-600"></i>Kubernetes</li>
             </ul>
           </div>
         </div>
