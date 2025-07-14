@@ -27,7 +27,7 @@ sections:
       title: Selective Projects
       username: admin
       text: |
-        <div class="max-w-6xl mx-auto w-full px-6 md:px-8 lg:px-10">
+        <div class="flex flex-col items-center mx-auto gap-3 justify-center">
           <!-- Row 1 -->
           <div class="max-w-6xl mx-auto w-full px-6 md:px-8 lg:px-10">
             <div class="mb-5 text-xl font-bold text-gray-900 dark:text-white flex justify-between items-center">
