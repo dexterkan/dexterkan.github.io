@@ -19,14 +19,38 @@ sections:
       # Education or Experience section first?
       is_education_first: false
   # - block: resume-skills
-  - block: custom
+  - block: markdown
     id: section-skills
     content:
       title: Skills
       username: admin
-    # design:
-    #   show_skill_percentage: false
-      design: custom/skills-section
+      text: |
+        <div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center">
+          <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+            Skills
+          </div>
+          <p>Below is a list of my technical skill sets categorized by domain.</p>
+        </div>
+
+        <div class="flex flex-col lg:flex-row items-start max-w-prose mx-auto gap-3 px-6 md:px-0">
+          <div class="w-full lg:w-1/2">
+            <div class="mb-5 text-xl font-bold text-gray-900 dark:text-white">Programming</div>
+            <ul class="list-disc list-inside text-gray-700 dark:text-gray-300">
+              <li>Python</li>
+              <li>JavaScript</li>
+              <li>Go</li>
+              <li>C++</li>
+            </ul>
+          </div>
+          <div class="w-full lg:w-1/2">
+            <div class="mb-5 text-xl font-bold text-gray-900 dark:text-white">Tools & Frameworks</div>
+            <ul class="list-disc list-inside text-gray-700 dark:text-gray-300">
+              <li>TensorFlow, PyTorch</li>
+              <li>Hugo, Tailwind CSS</li>
+              <li>Git, Docker</li>
+            </ul>
+          </div>
+        </div>
   - block: resume-awards
     content:
       title: Awards
