@@ -25,13 +25,6 @@ sections:
       title: Skills
       username: admin
       text: |
-        <div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center">
-          <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
-            Skills
-          </div>
-          <p>Below is a list of my technical skill sets categorized by domain.</p>
-        </div>
-
         <div class="flex flex-col lg:flex-row items-start max-w-prose mx-auto gap-3 px-6 md:px-0">
           <div class="w-full lg:w-1/2">
             <div class="mb-5 text-xl font-bold text-gray-900 dark:text-white">Programming</div>
