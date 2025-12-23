@@ -10,7 +10,7 @@ design:
 sections:
   - block: collection
     content:
-      title: Selected Publications
+      title: Selected Research Projects
       filters:
         folders:
           - publication
