@@ -35,9 +35,9 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        <div style='text-align: justify;'> My research interests span the fields of machine learning and networking systems, including but not limited to privacy in AI/ML, wireless communications and networks, fog/edge computing and networking, intelligent reflecting surface (IRS)-aided communications, and multi-input multi-output (MIMO) communications.
+        <div style='text-align: justify;'> My research focuses on making machine learning systems efficient, scalable, and privacy-preserving for real-world deployment. I work at the intersection of machine learning and distributed systems, developing solutions that enable practical ML inference on resource-constrained devices while protecting user privacy.
 
-        Currently, I'm working on building privacy-preserving and distributed systems.
+        My work addresses critical challenges in distributed edge–cloud environments, including privacy-preserving inference pipelines, threshold-based scheduling and task offloading, and hardware-aware neural architecture search for heterogeneous devices. These systems demonstrate how privacy, efficiency, and scalability can be achieved together in large-scale deployments.
         
         Please reach out to collaborate 😃 </div>
         
