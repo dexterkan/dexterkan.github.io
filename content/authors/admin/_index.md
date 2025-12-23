@@ -67,6 +67,8 @@ education:
       - Development of edge-friendly machine learning models
 
       Courses include:
+      - Large language Model
+      - Reinforcement Learning
       - Advanced Computer Vision
       - Machine Learning
       - Artificial Intelligence
