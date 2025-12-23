@@ -28,6 +28,17 @@ sections:
       username: admin
       text: |
         <div class="flex flex-col lg:flex-row flex-wrap justify-between mx-auto gap-6 px-6 md:px-0">
+          <!-- Row 0 -->
+          <div class="w-full">
+            <div class="uppercase tracking-wide mb-5 text-xl font-bold text-primary-700 dark:text-primary-200 flex justify-between items-center">Schematic-to-Netlist Translation using RL-Enhanced VLM Pipeline</div>
+            <div class="mb-5 text-base font-bold text-gray-900 dark:text-white flex justify-between items-center">Fall 2025</div>
+            <ul class="space-y-2 text-gray-700 dark:text-gray-300" style="text-align: justify;">
+              <li>Trained a Qwen-based vision-language model (with LoRA adapters) to translate circuit schematics into SPICE-compatible netlists with syntax and functional guarantees.</li>
+              <li>Used GRPO reinforcement learning with dual rewards (syntax validity + SPICE simulation-based functional correctness) to iteratively refine generated netlists.</li>
+              <li>Integrated circuit-rule checks and simulation signals into the reward loop, boosting end-to-end translation accuracy and reducing human correction time.</li>
+            </ul>
+          </div>
+
           <!-- Row 1 -->
           <div class="w-full">
             <div class="uppercase tracking-wide mb-5 text-xl font-bold text-primary-700 dark:text-primary-200 flex justify-between items-center">Operating System Implementation</div>
