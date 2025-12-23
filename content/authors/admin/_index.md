@@ -116,6 +116,11 @@ work:
     date_start: 2023-02-10
     date_end: ''
     summary: |2-
+      Efficient Hardware-Aware Neural Architecture Search [ICML-26]
+      - <div style='text-align: justify;'> Designed a two-stage neural architecture search framework that combines cloud-scale exploration with on-device refinement, enabling personalized models under strict latency and memory constraints. </div>
+      - <div style='text-align: justify;'> Eliminates the need to offload sensitive edge data to the cloud while rapidly adapting model architectures to changing device conditions such as CPU load and memory availability. </div>
+      - <div style='text-align: justify;'> Evaluated on CIFAR-100, ImageNet, and Freiburg datasets, demonstrating robust performance across diverse edge–cloud distribution shifts with minimal overhead. </div>
+
       Privacy-Preserving ML Systems [TDSC-25]
       - <div style='text-align: justify;'> Developed a pipeline that includes a sensitive object detector, scheduler, and obfuscator to protect user privacy while maintaining task utility during ML inference for vision tasks. </div>
       - <div style='text-align: justify;'> Leveraged distributed remote servers for privacy-preserved image processing, ensuring a seamless user experience while safeguarding private information. </div>
