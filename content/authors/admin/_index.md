@@ -116,7 +116,7 @@ work:
     date_start: 2023-02-10
     date_end: ''
     summary: |2-
-      Privacy-Preserving ML Systems [WACV-25]
+      Privacy-Preserving ML Systems [TDSC-25]
       - <div style='text-align: justify;'> Developed a pipeline that includes a sensitive object detector, scheduler, and obfuscator to protect user privacy while maintaining task utility during ML inference for vision tasks. </div>
       - <div style='text-align: justify;'> Leveraged distributed remote servers for privacy-preserved image processing, ensuring a seamless user experience while safeguarding private information. </div>
       - <div style='text-align: justify;'> Experiment results show that our proposed system achieves approximately 30% utility boost without compromising user privacy and can operate at around 25 fps. </div>
