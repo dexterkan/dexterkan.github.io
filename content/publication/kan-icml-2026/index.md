@@ -3,8 +3,8 @@ title: Efficient Hardware-aware Neural Architecture Search for Mobile Devices
 authors:
 - Te-Yi Kan
 - Konstantinos Psounis
-date: '2026-01-01'
-publishDate: '2026-01-28T00:00:00Z'
+date: '2025-12-22'
+publishDate: '2025-12-22T00:00:00Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings of the International Conference on Machine Learning (ICML), Submitted*'
