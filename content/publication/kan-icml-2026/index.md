@@ -9,7 +9,11 @@ publication_types:
 - paper-conference
 publication: '*Proceedings of the International Conference on Machine Learning (ICML), Submitted*'
 publication_short: "ICML"
-abstract: "<div style='text-align: justify;'>We present a hardware-aware neural architecture search (NAS) framework tailored for mobile and edge devices. The method jointly optimizes latency, energy, and accuracy using device-specific cost models and multi-objective search. Experiments on representative vision tasks show the generated models reduce end-to-end latency and energy while matching or exceeding baseline accuracy, making NAS practical for resource-constrained deployments.</div>"
-summary: Hardware-aware NAS for mobile/edge that co-optimizes latency, energy, and accuracy with device-specific cost models and multi-objective search; submitted to ICML.
+abstract: "<div style='text-align: justify;'>Applying Neural Architecture Search (NAS) to edge deployment faces major challenges due to limited device resources, privacy risks from cloud data offloading, and inaccurate performance estimation under dynamic hardware conditions. Architectures optimized offline in the cloud often fail to remain optimal as device latency, memory, and workload fluctuate over time.<br><br>
+
+We propose Cloud–Edge Neural Architecture Search, a hybrid framework that combines cloud-scale search with on-device refinement. The cloud stage identifies strong candidate architectures using public data, while the edge stage adapts these candidates to local data and real-time device constraints, ensuring compliance with strict latency and memory budgets. This design reduces privacy exposure, avoids expensive on-device search, and enables rapid re-adaptation as device conditions change by restarting only the lightweight edge phase.<br><br>
+
+Preliminary results on CIFAR-100, ImageNet, and Freiburg datasets show that our approach adapts efficiently to dynamic edge environments, achieving competitive performance with minimal degradation compared to cloud-only NAS, while offering improved privacy and practicality for real-world deployment.</div>"
+summary: Cloud–Edge NAS that pairs cloud candidate discovery with on-device refinement to meet latency/memory budgets, reduce privacy exposure, and quickly re-adapt to dynamic edge hardware.
 featured: true
 ---
