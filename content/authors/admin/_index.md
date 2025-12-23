@@ -109,6 +109,14 @@ education:
       - Network Planning and Management
       - Desing of Wireless Communication Networks
 work:
+  - position: Machine Learning Engineer Intern (Incoming)
+    company_name: Meta
+    company_url: 'https://www.meta.com/'
+    company_logo: ''
+    date_start: 2026-05-01
+    date_end: 2026-08-31
+    summary: |2-
+      Incoming Machine Learning Engineer Intern for Summer 2026.
   - position: Research Assistant
     company_name: NetPD at USC
     company_url: 'https://sites.usc.edu/kpsounis/'
