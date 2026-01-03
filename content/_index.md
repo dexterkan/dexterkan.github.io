@@ -13,15 +13,7 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      text: |-
-        <div style='text-align: center; margin-top: 1rem;'>
-          <a href='/uploads/resume.pdf' class='inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-2 focus:ring-primary-700 focus:text-primary-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700' style='margin-right: 0.5rem;'>
-            Download CV
-          </a>
-          <a href='/uploads/resume_full.pdf' class='inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-2 focus:ring-primary-700 focus:text-primary-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700'>
-            Download Full CV
-          </a>
-        </div>
+      text: ""
     design:
       css_class: light
       # background:
@@ -34,6 +26,21 @@ sections:
         #   size: cover
         #   position: center
         #   parallax: false
+  - block: markdown
+    content:
+      text: |-
+        <div style='text-align: center; margin-top: 0rem; margin-bottom: 0rem;'>
+          <a href='/uploads/resume.pdf' class='inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-2 focus:ring-primary-700 focus:text-primary-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700' style='margin-right: 0.5rem;'>
+            Download CV
+          </a>
+          <a href='/uploads/resume_full.pdf' class='inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-2 focus:ring-primary-700 focus:text-primary-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700'>
+            Download Full CV
+          </a>
+        </div>
+    design:
+      css_class: light
+      spacing:
+        padding: ["2rem", 0, "2rem", 0]
   - block: markdown
     content:
       title: '📚 My Research'
