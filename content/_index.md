@@ -13,19 +13,7 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      text: |-
-        <div style='text-align: center; margin-top: 1rem;'>
-          <a href='uploads/resume.pdf' class='inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-primary-600 rounded-lg hover:bg-primary-700 focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800' style='margin-right: 0.5rem;'>
-            Download CV
-          </a>
-          <a href='uploads/resume_full.pdf' class='inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-primary-600 rounded-lg hover:bg-primary-700 focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800'>
-            Download Full CV
-          </a>
-        </div>
-      # Show a call-to-action button under your biography? (optional)
-      # button:
-      #   text: Download CV
-      #   url: uploads/resume.pdf
+      text: ""
     design:
       css_class: light
       # background:
