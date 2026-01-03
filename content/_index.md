@@ -13,13 +13,15 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      text: ""
-      # Show a call-to-action button under your biography? (optional)
-      buttons:
-        - text: Download CV
-          url: /uploads/resume.pdf
-        - text: Download Full CV
-          url: /uploads/resume_full.pdf
+      text: |-
+        <div style='text-align: center; margin-top: 1rem;'>
+          <a href='/uploads/resume.pdf' class='inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-2 focus:ring-primary-700 focus:text-primary-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700' style='margin-right: 0.5rem;'>
+            Download CV
+          </a>
+          <a href='/uploads/resume_full.pdf' class='inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-2 focus:ring-primary-700 focus:text-primary-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700'>
+            Download Full CV
+          </a>
+        </div>
     design:
       css_class: light
       # background:
