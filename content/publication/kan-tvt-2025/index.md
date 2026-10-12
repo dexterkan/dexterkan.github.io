@@ -1,5 +1,5 @@
 ---
-title: "Online distributed offloading of time‑sensitive vehicular tasks in edge‑cloud systems"
+title: "Online distributed offloading of time-sensitive vehicular tasks in edge-cloud systems"
 authors:
 - Te-Yi Kan
 - Konstantinos Psounis
@@ -23,7 +23,8 @@ links:
   icon_pack: fas
   name: IEEE TVT 
   url: https://ieeexplore.ieee.org/abstract/document/11051063
-url_pdf: uploads/kan-tvt-2025
+url_pdf: /publication/kan-tvt-2025/kan-tvt-2025.pdf
 
+layout: todora
 featured: true
 ---

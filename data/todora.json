@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Vehicle compute",
+    "image": "vehicle-results.png",
+    "caption": "Figure 4 \u00b7 (a) Overall task duration (ms); (b) task execution duration (ms); (c) decision computation runtime (seconds, log scale). Vehicle capacity: 13\u201317 TFLOPS.",
+    "insight": "POPT minimizes the execution-only component, but its centralized request overhead and periodic decision points increase overall task duration. TODORA has the lowest overall duration in the reported sweep.",
+    "source": "Section VI-C1"
+  },
+  {
+    "name": "Vehicle density",
+    "image": "density-results.png",
+    "caption": "Figure 8 \u00b7 (a) Overall task duration (ms); (b) task execution duration (ms); (c) decision computation runtime (seconds, log scale). Vehicle density: 1,500\u20133,500 vehicles/day.",
+    "insight": "Growing vehicle density increases contention for compute and uplink airtime. TODORA maintains lower overall duration in the reported sweep, while the POPT decision runtime grows with the optimization problem size.",
+    "source": "Section VI-C3"
+  },
+  {
+    "name": "Partial offloading",
+    "image": "partial-results.png",
+    "caption": "Figure 16 \u00b7 Overall task duration (ms) versus vehicle density. Solid lines: binary offloading; dotted lines: partial offloading.",
+    "insight": "Partial execution across the vehicle, edge, and cloud lowers task duration in the reported comparison. TODORAP includes splitting and result-synthesis overhead; the paper reports 0.9 ms for that overhead on the Threadripper server.",
+    "source": "Section VI-C7"
+  }
+]
