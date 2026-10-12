@@ -1,9 +1,9 @@
 {{ $personPage := site.GetPage (printf "/authors/%s" (.wcBlock.content.username | default "admin")) }}
 {{ $person := $personPage.Params }}
-{{ $avatar := ($personPage.Resources.ByType "image").GetMatch "*avatar*" }}
+{{ $avatar := ($personPage.Resources.ByType "image").GetMatch "avatar_original_backup.jpg" }}
 <div class="career-hero text-gray-900 dark:text-white">
   <div class="career-profile">
-    {{ with $avatar }}{{ $image := .Fill "180x180 Center" }}<img class="career-avatar" src="{{ $image.RelPermalink }}" alt="Portrait of {{ $personPage.Title }}" width="180" height="180">{{ end }}
+    {{ with $avatar }}{{ $portrait := .Crop "1500x1500 Center" }}{{ $image := $portrait.Resize "540x540 q90" }}{{ $small := $portrait.Resize "180x180 q90" }}{{ $medium := $portrait.Resize "360x360 q90" }}<img class="career-avatar" src="{{ $image.RelPermalink }}" srcset="{{ $small.RelPermalink }} 180w, {{ $medium.RelPermalink }} 360w, {{ $image.RelPermalink }} 540w" sizes="(max-width: 760px) 90px, 180px" alt="Portrait of {{ $personPage.Title }}" width="180" height="180" fetchpriority="high">{{ end }}
     <p class="career-name">{{ $personPage.Title }}</p>
     <p class="career-chinese-name">{{ $person.name_pronunciation }}</p>
     <p>Ph.D. Candidate<br>University of Southern California</p>
@@ -35,7 +35,7 @@
       <a href="{{ "/uploads/resume_full.pdf" | relURL }}">Full CV</a>
     </nav>
     <p>I bring algorithm design, system implementation, and experimental evaluation to LLM inference, computer vision, and distributed edge–cloud computing.</p>
-    <p>I am exploring industry opportunities in ML systems and machine learning engineering, as well as software engineering and research science.</p>
+    <p>I am seeking Software Engineer, Machine Learning Engineer, and Research Scientist roles focused on ML inference and distributed systems.</p>
     <p class="career-milestone"><strong>Qualifying exam passed</strong> · Expected graduation: May 2027<br><a href="{{ "/event/qualifying-exam/" | relURL }}">Qualifying exam & slides →</a></p>
   </div>
 </div>
