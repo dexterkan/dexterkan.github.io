@@ -1,0 +1,188 @@
+{
+  "methods": [
+    {
+      "name": "Proposed",
+      "i": [
+        267.7,
+        394.2,
+        372.4,
+        608.2
+      ],
+      "ii": [
+        1279,
+        537.2,
+        568.5,
+        784.5
+      ],
+      "note": "Joint BS, relay, and RIS beamforming; the RIS supports both transmission phases."
+    },
+    {
+      "name": "Random",
+      "i": [
+        2.703,
+        7.718,
+        2.281,
+        1.652
+      ],
+      "ii": [
+        31.67,
+        1656,
+        336.6,
+        1311
+      ],
+      "note": "RIS phases are selected randomly; BS and relay beamforming are optimized for that configuration."
+    },
+    {
+      "name": "Independent",
+      "i": [
+        748.9,
+        836.2,
+        408.4,
+        1392
+      ],
+      "ii": [
+        71.68,
+        84.68,
+        74.15,
+        79.49
+      ],
+      "note": "The RIS assists only phase I and is disabled in phase II. Beamforming is optimized for that setting."
+    },
+    {
+      "name": "SingleRelay",
+      "i": [
+        4.173e-05,
+        4.897e-05,
+        4.426e-05,
+        4.926e-05
+      ],
+      "ii": [
+        50.39,
+        64.64,
+        51.04,
+        62.02
+      ],
+      "note": "Relay-only system, with no RIS; BS and relay beamforming are optimized."
+    },
+    {
+      "name": "DoubleRelay",
+      "i": [
+        4.861e-05,
+        5.073e-05,
+        4.962e-05,
+        5.189e-05
+      ],
+      "ii": [
+        67.73,
+        72.17,
+        66.23,
+        72.22
+      ],
+      "note": "Replace the RIS with a second DF relay. Each relay receives half the available relay power for fairness."
+    }
+  ],
+  "runtime": [
+    {
+      "name": "Users \u00b7 K",
+      "config": "(M, N, L, K) = (8, 30, 8, K)",
+      "values": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "seconds": [
+        5.38,
+        8.38,
+        18.76,
+        25.66
+      ]
+    },
+    {
+      "name": "RIS elements \u00b7 N",
+      "config": "(M, N, L, K) = (8, N, 4, 4)",
+      "values": [
+        20,
+        30,
+        40,
+        50
+      ],
+      "seconds": [
+        11.52,
+        12.14,
+        12.73,
+        14.62
+      ]
+    },
+    {
+      "name": "BS antennas \u00b7 M",
+      "config": "(M, N, L, K) = (M, 30, 4, 4)",
+      "values": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": [
+        10.1,
+        11.68,
+        11.97,
+        12.23
+      ]
+    },
+    {
+      "name": "Relay antennas \u00b7 L",
+      "config": "(M, N, L, K) = (8, 30, L, 4)",
+      "values": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "seconds": [
+        10.59,
+        10.61,
+        10.81,
+        11.15
+      ]
+    }
+  ],
+  "plots": [
+    {
+      "name": "Topology 1",
+      "image": "topology-1.png",
+      "caption": "Figure 3 \u00b7 Sum-rate versus RIS elements \u00b7 (M, N, L, K) = (8, N, 4, 4). RIS at (100, 50) m.",
+      "insight": "Joint optimization of both transmission phases gives the proposed hybrid system the highest sum-rate in this reported sweep."
+    },
+    {
+      "name": "Topology 2",
+      "image": "topology-2.png",
+      "caption": "Figure 7 \u00b7 Sum-rate versus RIS elements \u00b7 (8, N, 4, 4). RIS at (50, 50) m, closer to the BS.",
+      "insight": "Moving the RIS closer to the BS strengthens the first-phase contribution. Independent and Random improve relative to their Topology 1 results; placement changes the benchmark tradeoffs."
+    },
+    {
+      "name": "Topology 3",
+      "image": "topology-3.png",
+      "caption": "Figure 9 \u00b7 Sum-rate versus RIS elements \u00b7 (8, N, 4, 4). RIS at (150, 50) m, farther from the BS.",
+      "insight": "The proposed joint design remains strong in this topology; Independent and Random have a smaller first-phase contribution."
+    },
+    {
+      "name": "Imperfect CSI",
+      "image": "imperfect-csi.png",
+      "caption": "Figure 11 \u00b7 Topology 1 \u00b7 perfect CSI and RIS\u2013user error variances 0.001 and 0.01 \u00b7 (8, N, 4, 4).",
+      "insight": "Channel-estimation error lowers performance. The proposed scheme remains stronger than Random under the same channel conditions; Independent is less affected because the RIS does not serve phase II."
+    },
+    {
+      "name": "Convergence",
+      "image": "convergence.png",
+      "caption": "Figure 12 \u00b7 Sum-rate versus AO iteration \u00b7 (M, N, L, K) = (8, 30, 8, K), K = 2, 4, 6, 8.",
+      "insight": "The reported curves converge in a few iterations. More users increase the number of BS beamforming subproblems; this does not establish real-time performance or global optimality."
+    },
+    {
+      "name": "Energy efficiency",
+      "image": "energy-efficiency.png",
+      "caption": "Figure 13 \u00b7 Energy efficiency versus RIS elements \u00b7 Topology 1 \u00b7 (8, N, 4, 4). RIS power per element: 0.05 mW.",
+      "insight": "Additional RIS elements improve the reported energy efficiency more moderately than sum-rate because RIS power consumption also grows with the element count."
+    }
+  ]
+}

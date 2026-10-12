@@ -24,6 +24,7 @@ links:
   icon_pack: fas
   name: IEEE TVT 
   url: https://ieeexplore.ieee.org/document/10041729
-url_pdf: uploads/kan-tvt-2023
+url_pdf: /publication/kan-tvt-2023/kan-tvt-2023.pdf
+layout: relay-ris
 featured: true
 ---
