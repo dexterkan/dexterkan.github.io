@@ -38,4 +38,16 @@
 .dark .career-card .career-eyebrow{color:#7dd3fc}
 .dark .career-context{color:#cbd5e1}
 @media(max-width:1000px){.career-grid{grid-template-columns:1fr}.career-card{padding:1.25rem}}
+.career-industry{border-left:3px solid #0369a1;background:#f0f9ff;border-radius:0 .75rem .75rem 0;padding:1rem 1.25rem;margin:1.25rem 0;color:#0f172a}
+.career-industry-heading{font-size:.72rem;font-weight:700;letter-spacing:.06em;line-height:1.6;margin:0 0 .75rem;color:#075985}
+.career-industry-heading span{display:block;font-weight:400;letter-spacing:0;color:#475569}
+.career-impact{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.25rem;margin:0}
+.career-impact dt{font-size:1.25rem;font-weight:750;line-height:1.3}
+.career-impact dd{font-size:.85rem;line-height:1.6;margin:.4rem 0 0}
+.career-industry>a{display:inline-block;margin-top:.8rem;font-size:.85rem;font-weight:600;color:#075985}
+.career-industry>a:focus-visible{outline:3px solid #38bdf8;outline-offset:4px}
+.dark .career-industry{background:#0c2535;border-color:#7dd3fc;color:#f1f5f9}
+.dark .career-industry-heading,.dark .career-industry>a{color:#7dd3fc}
+.dark .career-industry-heading span{color:#cbd5e1}
+@media(max-width:760px){.career-impact{grid-template-columns:1fr;gap:1rem}.career-industry{padding:1rem}.career-hero-copy>.career-intro{line-height:1.65}}
 </style>
