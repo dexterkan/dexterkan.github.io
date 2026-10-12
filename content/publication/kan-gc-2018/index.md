@@ -1,4 +1,5 @@
 ---
+layout: mec-qos
 title: 'QoS-aware mobile edge computing system: Multi-server multi-user scenario'
 authors:
 - Te-Yi Kan
@@ -23,7 +24,7 @@ featured: true
 links:
 - icon: link
   icon_pack: fas
-  name: IEEE GLOBECOM
-  url: https://ieeexplore.ieee.org/abstract/document/9682048
-url_pdf: uploads/kan-gc-2018
+  name: Author publication list
+  url: https://wmnlab.ee.ntu.edu.tw/lab/publication.html
+url_pdf: '/publication/kan-gc-2018/kan-gc-2018.pdf'
 ---

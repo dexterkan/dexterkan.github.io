@@ -1,0 +1,44 @@
+{
+  "plots": [
+    {
+      "name": "Execution cost",
+      "image": "cost.png",
+      "caption": "Figure 2 \u00b7 Execution cost versus maximum devices per MEC server. Lower is better.",
+      "insight": "Load distribution lowers the proposed scheme\u2019s cost relative to NLD. The gap is most pronounced at intermediate load: light load leaves little need to redistribute, while very high load leaves little spare capacity across servers."
+    },
+    {
+      "name": "User satisfaction",
+      "image": "satisfaction.png",
+      "caption": "Figure 3 \u00b7 Fraction of tasks completed within delay tolerance. Higher is better.",
+      "insight": "Sharing spare server capacity helps maintain deadline satisfaction as device counts rise. Always-local and always-remote execution cannot adapt to resource availability on both sides."
+    },
+    {
+      "name": "Nearby-server energy",
+      "image": "energy.png",
+      "caption": "Figure 4 \u00b7 Energy consumed by nearby servers for tasks redistributed from MEC Server 1.",
+      "insight": "Compared with aggressive load distribution (ALD), the local-server-first policy moves fewer tasks to nearby servers and consumes less energy there. This is a specific redistributed-work metric, not total system energy."
+    }
+  ],
+  "stages": [
+    {
+      "name": "Classify & allocate radio",
+      "text": "At each server, classify devices into the paper\u2019s S_mec and S_other sets, determine task priorities, and assign channels to S_mec devices in ascending priority order. Offloading needs both radio access and computation resources.",
+      "source": "Algorithm 1 \u00b7 lines 1\u20134"
+    },
+    {
+      "name": "Use the local MEC server",
+      "text": "Request the minimum compute rate \u0394 = d / (Tmax \u2212 Ttx). Allocate resources at the serving MEC server in ascending order of deadline until tasks are served or residual capacity is insufficient.",
+      "source": "Equation 6 \u00b7 Algorithm 1, lines 5\u20137"
+    },
+    {
+      "name": "Redistribute & split",
+      "text": "Try full distribution of unserved tasks to nearby servers before partial distribution. Choose a server with the smallest residual capacity that is strictly greater than the requested rate. If no single server fits, split into independent instructions, allowing time for the final gather instruction; terminate a task if instructions remain unserved.",
+      "source": "Equations 2 and 7 \u00b7 Algorithm 1, lines 8\u201316"
+    },
+    {
+      "name": "Revisit optional offloading",
+      "text": "For S_other devices, evaluate whether offloading reduces execution cost, assign channels to those that offload, and allocate computation resources to the tasks assigned to each server.",
+      "source": "Algorithm 1 \u00b7 lines 17\u201321 \u00b7 Appendix C"
+    }
+  ]
+}
