@@ -1,0 +1,260 @@
+{
+  "scenarios": [
+    {
+      "name": "8 \u00d7 8 \u00b7 BPSK",
+      "snr": [
+        6,
+        8,
+        10,
+        12,
+        14,
+        16
+      ],
+      "methods": [
+        {
+          "name": "ML",
+          "seconds": [
+            0.0018,
+            0.0023,
+            0.0018,
+            0.0017,
+            0.0022,
+            0.0017
+          ]
+        },
+        {
+          "name": "MMSE",
+          "seconds": [
+            4.7e-05,
+            4.7e-05,
+            4.7e-05,
+            4.7e-05,
+            4.7e-05,
+            4.5e-05
+          ]
+        },
+        {
+          "name": "DRL",
+          "seconds": [
+            0.0041,
+            0.0034,
+            0.0033,
+            0.0033,
+            0.0035,
+            0.0034
+          ]
+        },
+        {
+          "name": "MCTS",
+          "seconds": [
+            0.1889,
+            0.1879,
+            0.1873,
+            0.1872,
+            0.1873,
+            0.1872
+          ]
+        },
+        {
+          "name": "DetNet",
+          "seconds": [
+            2.2e-05,
+            2.1e-05,
+            2e-05,
+            2e-05,
+            1.9e-05,
+            1.9e-05
+          ]
+        },
+        {
+          "name": "DRL-MCTS",
+          "seconds": [
+            0.0457,
+            0.0411,
+            0.0403,
+            0.0385,
+            0.0365,
+            0.0353
+          ]
+        }
+      ],
+      "budget": 20,
+      "table": "II",
+      "epsilon": ".10",
+      "ser": "ser-bpsk.png",
+      "playouts": "playouts-bpsk.png",
+      "serFigure": 8,
+      "playoutFigure": 5,
+      "insight": "DRL-MCTS uses 20 playouts and improves SER over standalone DRL, MCTS, and DetNet in this sweep. ML remains the optimal reference; faster feed-forward methods trade detection accuracy for runtime."
+    },
+    {
+      "name": "8 \u00d7 8 \u00b7 QPSK",
+      "snr": [
+        6,
+        8,
+        10,
+        12,
+        14,
+        16
+      ],
+      "methods": [
+        {
+          "name": "ML",
+          "seconds": [
+            0.4091,
+            0.4873,
+            0.4981,
+            0.5048,
+            0.495,
+            0.5045
+          ]
+        },
+        {
+          "name": "MMSE",
+          "seconds": [
+            5.2e-05,
+            5.2e-05,
+            5.2e-05,
+            5.2e-05,
+            5.2e-05,
+            5.2e-05
+          ]
+        },
+        {
+          "name": "DRL",
+          "seconds": [
+            0.0072,
+            0.0067,
+            0.0066,
+            0.0066,
+            0.0066,
+            0.0066
+          ]
+        },
+        {
+          "name": "MCTS",
+          "seconds": [
+            0.3064,
+            0.3045,
+            0.3037,
+            0.3042,
+            0.3019,
+            0.3018
+          ]
+        },
+        {
+          "name": "DRL-MCTS",
+          "seconds": [
+            0.264,
+            0.2546,
+            0.2455,
+            0.241,
+            0.2419,
+            0.2401
+          ]
+        }
+      ],
+      "budget": 60,
+      "table": "III",
+      "epsilon": ".08",
+      "ser": "ser-qpsk.png",
+      "playouts": "playouts-qpsk.png",
+      "serFigure": 9,
+      "playoutFigure": 6,
+      "insight": "DRL-MCTS uses 60 playouts. The original plot shows improved SER over DRL, MCTS, and MMSE; DetNet is absent because the compared version was designed for BPSK."
+    },
+    {
+      "name": "8 \u00d7 16 \u00b7 QPSK",
+      "snr": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "methods": [
+        {
+          "name": "ML",
+          "seconds": [
+            0.4734,
+            0.4735,
+            0.4754,
+            0.4779,
+            0.4755,
+            0.4741
+          ]
+        },
+        {
+          "name": "MMSE",
+          "seconds": [
+            5.3e-05,
+            5.2e-05,
+            5.2e-05,
+            5.2e-05,
+            5.3e-05,
+            5.2e-05
+          ]
+        },
+        {
+          "name": "DRL",
+          "seconds": [
+            0.0075,
+            0.007,
+            0.0069,
+            0.007,
+            0.0068,
+            0.0067
+          ]
+        },
+        {
+          "name": "MCTS",
+          "seconds": [
+            0.3807,
+            0.4039,
+            0.3798,
+            0.3913,
+            0.3919,
+            0.3869
+          ]
+        },
+        {
+          "name": "DRL-MCTS",
+          "seconds": [
+            0.0735,
+            0.0631,
+            0.0668,
+            0.0594,
+            0.0581,
+            0.058
+          ]
+        }
+      ],
+      "budget": 10,
+      "table": "IV",
+      "epsilon": ".08",
+      "ser": "ser-asymmetric.png",
+      "playouts": "playouts-asymmetric.png",
+      "serFigure": 10,
+      "playoutFigure": 7,
+      "insight": "With more receive than transmit antennas, only 10 DRL-MCTS playouts are used. MMSE also performs better here; the paper attributes this favorable regime to a better-conditioned channel."
+    }
+  ],
+  "stages": [
+    {
+      "name": "Selection",
+      "text": "Follow the child maximizing PUCT: average node value plus a policy-weighted exploration term. The actor provides the prior probability P; visit counts control exploration.",
+      "source": "Section IV-D \u00b7 Equation 12"
+    },
+    {
+      "name": "Expansion",
+      "text": "Evaluate the policy and state value networks at a nonterminal leaf. Add all possible PAM actions as children and initialize their prior probabilities from the policy output. The state value predicts the final negative detection metric, replacing a random rollout.",
+      "source": "Section IV-D \u00b7 Figure 4"
+    },
+    {
+      "name": "Backpropagation",
+      "text": "Propagate the predicted value upward, average node values, and increment visit counts. At a terminal leaf, use the actual negative detection metric. After the playout budget, choose the root child with the largest visit count; retain its subtree for the next symbol decision.",
+      "source": "Section IV-D \u00b7 Figure 4"
+    }
+  ]
+}
