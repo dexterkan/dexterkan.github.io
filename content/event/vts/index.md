@@ -42,8 +42,8 @@ image:
 #    name: Follow
 #    url: https://twitter.com/georgecushen
 # url_code: 'https://github.com'
-url_pdf: uploads/kan-apwcs-2018
-url_slides: uploads/vts
+url_pdf: /uploads/kan-apwcs-2018.pdf
+url_slides: /uploads/vts.pdf
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.

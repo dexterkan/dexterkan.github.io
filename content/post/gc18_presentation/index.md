@@ -5,7 +5,7 @@ date: 2018-12-09
 tags:
   - IEEE GC18 Presentation
   - Markdown
-url_pdf: uploads/kan-gc-2018
+url_pdf: /uploads/kan-gc-2018.pdf
 links:
   - icon: link
     icon_pack: fas

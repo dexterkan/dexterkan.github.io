@@ -42,8 +42,8 @@ image:
 #    name: Follow
 #    url: https://twitter.com/georgecushen
 # url_code: 'https://github.com'
-url_pdf: uploads/kan-wocc-2018
-url_slides: uploads/wocc
+url_pdf: /uploads/kan-wocc-2018.pdf
+url_slides: /uploads/wocc.pdf
 # url_video: 'https://youtube.com'
 
 # Markdown Slides (optional).

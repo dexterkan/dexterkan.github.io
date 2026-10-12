@@ -42,8 +42,8 @@ image:
 #    name: Follow
 #    url: https://twitter.com/georgecushen
 # url_code: 'https://github.com'
-url_pdf: uploads/kan-gc-2021.pdf
-url_slides: uploads/gc21.pdf
+url_pdf: /uploads/kan-gc-2021.pdf
+url_slides: /uploads/gc21.pdf
 # url_video: 'https://youtube.com'
 
 # Markdown Slides (optional).

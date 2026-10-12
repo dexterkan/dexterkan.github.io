@@ -5,7 +5,7 @@ date: 2018-08-23
 tags:
   - IEEE VTS Presentation
   - Markdown
-url_pdf: uploads/kan-apwcs-2018
+url_pdf: /uploads/kan-apwcs-2018.pdf
 links:
   - icon: link
     icon_pack: fas

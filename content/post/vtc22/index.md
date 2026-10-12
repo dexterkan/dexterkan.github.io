@@ -5,7 +5,7 @@ date: 2021-12-15
 tags:
   - IEEE VTC
   - Markdown
-url_pdf: uploads/mo-2022-deepmcts
+url_pdf: /uploads/mo-2022-deepmcts.pdf
 ---
 
 <p style='text-align: justify;'> This paper proposes a multiple-input multiple-output (MIMO) symbol detector that incorporates a deep reinforcement learning (DRL) agent into the Monte Carlo tree search (MCTS) detection algorithm. A self-designed deep reinforcement learning agent, consisting of a policy value network and a state value network, is trained to detect MIMO symbols. The outputs of the trained networks are adopted into a modiﬁed MCTS detection algorithm to provide useful node statistics and facilitate enhanced tree search process. The resulted scheme, termed the DeepMCTS detector, demonstrates signiﬁcant performance and complexity advantages over the original MCTS detection algorithm under varying channel conditions. </p>

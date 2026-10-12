@@ -151,12 +151,12 @@ work:
       - Evaluated MobileNetV2-based image classification (CIFAR-100 → CIFAR-10) and GPT-2-based language modeling (WikiText-2 → Penn Treebank), reducing reported search time relative to cloud-only baselines with a utility tradeoff.
       - [Interactive research walkthrough](/publication/kan-icml-2026/)
 
-      Privacy-Preserving ML Systems [TDSC-25]
+      Privacy-Preserving ML Systems [Manuscript, 2026]
       - <div style='text-align: justify;'> Developed a pipeline that includes a sensitive object detector, scheduler, and obfuscator to protect user privacy while maintaining task utility during ML inference for vision tasks. </div>
       - <div style='text-align: justify;'> Leveraged distributed remote servers for privacy-preserved image processing, ensuring a seamless user experience while safeguarding private information. </div>
       - <div style='text-align: justify;'> Experiment results show that our proposed system achieves approximately 30% utility boost without compromising user privacy and can operate at around 25 fps. </div>
 
-      Online distributed offloading of time-sensitive vehicular tasks in edge-cloud systems [[TVT24](https://ieeexplore.ieee.org/abstract/document/11051063)]
+      Online distributed offloading of time-sensitive vehicular tasks in edge-cloud systems [[TVT25](https://ieeexplore.ieee.org/abstract/document/11051063)]
       - <div style='text-align: justify;'> Investigated task offloading mechanism in edge-cloud computing systems for time-sensitive ML tasks to support future advanced driving assistance systems and automated driving systems. </div>
       - <div style='text-align: justify;'> Developed a threshold-based online distributed offloading and resource allocation mechanism (TODORA) to reduce task duration by optimizing task offloading decisions and resource allocation. </div>
       - <div style='text-align: justify;'> Verified by simulation, TODORA outperforms the state-of-the-art schemes. </div>
@@ -191,7 +191,7 @@ work:
       Academia Sinica-MediaTek Collaborative Project
       - <div style='text-align: justify;'> Proposed and collaborated with MediaTek research team on the project, “AI-Enabled Hybrid Reconfigurable Intelligent Surface (RIS) and Relay Systems for 6G Communications.” </div>
       - <div style='text-align: justify;'> Designed a hybrid RIS/relay system where RISs and traditional relays coexist to enhance system performance in terms of energy efficiency and sum-rate. </div>
-      - <div style='text-align: justify;'> Analyzed the characteristics of hybrid RIS/relay systems at mmWave and THz hands. </div>
+      - <div style='text-align: justify;'> Analyzed the characteristics of hybrid RIS/relay systems at mmWave and THz bands. </div>
 
   - position: Summer Intern
     company_name: Foxconn Technology Group
@@ -202,7 +202,7 @@ work:
     summary: |
       Responsibilities include:
       - <div style='text-align: justify;'> Implemented a commercial MEC infrastructure within a 15-person team to enable lifecycle management of MEC services. </div>
-      - <div style='text-align: justify;'> Design a hybrid fog/cloud platform for facial detection and video streaming. </div>
+      - <div style='text-align: justify;'> Designed a hybrid fog/cloud platform for facial detection and video streaming. </div>
       - <div style='text-align: justify;'> Contributed to building a face-based access control and attendance system powered by MEC via OpenStack. </div>
   - position: Student Researcher
     company_name: WMNL at NTU

@@ -5,7 +5,7 @@ date: 2018-05-01
 tags:
   - IEEE WOCC Presentation
   - Markdown
-url_pdf: uploads/kan-wocc-2018
+url_pdf: /uploads/kan-wocc-2018.pdf
 links:
   - icon: link
     icon_pack: fas

@@ -42,7 +42,7 @@ image:
 #    name: Follow
 #    url: https://twitter.com/georgecushen
 # url_code: 'https://github.com'
-url_slides: uploads/research_festival_23.pdf
+url_slides: /uploads/research_festival_23.pdf
 # url_video: 'https://youtube.com'
 
 # Markdown Slides (optional).
