@@ -1,0 +1,159 @@
+{
+  "tasks": [
+    {
+      "name": "Image classification",
+      "metric": "Accuracy \u2191",
+      "unit": "%",
+      "digits": 1,
+      "source": "Table 2",
+      "datasets": "CIFAR-100 \u2192 CIFAR-10",
+      "backbone": "MobileNetV2",
+      "budget": "Inference latency \u2264 15 ms \u00b7 Memory \u2264 25 MB",
+      "results": [
+        [
+          87.5,
+          10.45
+        ],
+        [
+          91.9,
+          39.64
+        ],
+        [
+          90.2,
+          35.09
+        ],
+        [
+          89.4,
+          28.45
+        ]
+      ],
+      "ablations": [
+        [
+          [
+            87.5,
+            10.45
+          ],
+          [
+            88.3,
+            21.68
+          ],
+          [
+            88.6,
+            34.79
+          ]
+        ],
+        [
+          [
+            86.9,
+            10.61
+          ],
+          [
+            87.6,
+            22.34
+          ],
+          [
+            87.8,
+            34.01
+          ]
+        ],
+        [
+          [
+            86.1,
+            10.21
+          ],
+          [
+            87.1,
+            21.56
+          ],
+          [
+            87.3,
+            34.87
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "Language modeling",
+      "metric": "Perplexity \u2193",
+      "unit": "",
+      "digits": 2,
+      "source": "Table 4",
+      "datasets": "WikiText-2 \u2192 Penn Treebank",
+      "backbone": "GPT-2",
+      "budget": "TTFT \u2264 300 ms \u00b7 TPOT \u2264 10 ms \u00b7 Memory \u2264 1 GB",
+      "results": [
+        [
+          54.19,
+          12.12
+        ],
+        [
+          46.21,
+          45.37
+        ],
+        [
+          47.24,
+          42.05
+        ],
+        [
+          50.67,
+          36.53
+        ]
+      ],
+      "ablations": [
+        [
+          [
+            54.19,
+            12.12
+          ],
+          [
+            52.27,
+            25.67
+          ],
+          [
+            51.95,
+            37.9
+          ]
+        ],
+        [
+          [
+            55.03,
+            12.41
+          ],
+          [
+            53.78,
+            25.34
+          ],
+          [
+            53.04,
+            37.01
+          ]
+        ],
+        [
+          [
+            55.87,
+            12.01
+          ],
+          [
+            54.13,
+            25.61
+          ],
+          [
+            53.21,
+            37.98
+          ]
+        ]
+      ]
+    }
+  ],
+  "methods": [
+    "Cloud\u2013Edge HW-NAS",
+    "Evo-HW-NAS",
+    "RL-HW-NAS",
+    "BO-HW-NAS"
+  ],
+  "cloud": [
+    "Evolutionary",
+    "Reinforcement learning",
+    "Bayesian optimization"
+  ]
+}

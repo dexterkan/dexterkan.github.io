@@ -145,10 +145,11 @@ work:
       - Uses adaptive gating to reduce unnecessary verification, communication overhead, and verifier load while maintaining generation quality.
       - [Project details](/project/speculative-decoding/)
 
-      Efficient Hardware-Aware Neural Architecture Search [ICML-26]
+      Cloud–Edge Hardware-Aware Neural Architecture Search [ICML, Submitted]
       - <div style='text-align: justify;'> Designed a two-stage neural architecture search framework that combines cloud-scale exploration with on-device refinement, enabling personalized models under strict latency and memory constraints. </div>
       - <div style='text-align: justify;'> Eliminates the need to offload sensitive edge data to the cloud while rapidly adapting model architectures to changing device conditions such as CPU load and memory availability. </div>
-      - <div style='text-align: justify;'> Evaluated on CIFAR-100, ImageNet, and Freiburg datasets, demonstrating robust performance across diverse edge–cloud distribution shifts with minimal overhead. </div>
+      - Evaluated MobileNetV2-based image classification (CIFAR-100 → CIFAR-10) and GPT-2-based language modeling (WikiText-2 → Penn Treebank), reducing reported search time relative to cloud-only baselines with a utility tradeoff.
+      - [Interactive research walkthrough](/publication/kan-icml-2026/)
 
       Privacy-Preserving ML Systems [TDSC-25]
       - <div style='text-align: justify;'> Developed a pipeline that includes a sensitive object detector, scheduler, and obfuscator to protect user privacy while maintaining task utility during ML inference for vision tasks. </div>
