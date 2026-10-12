@@ -13,13 +13,14 @@ sections:
       title: 'Ongoing Research'
       text: |-
         <p><strong>Collaborative Speculative Decoding Across Edge and Cloud</strong> · February 2026–present</p>
-        <p>Confidence- and hardness-aware drafting with selective cloud verification to reduce LLM inference latency, communication overhead, and verifier load.</p>
+        <p>Confidence- and hardness-aware drafting with selective cloud verification. Evaluation targets latency, communication volume, verifier compute, and generation quality; quantitative benchmarks are not yet published here.</p>
         <p><a href="/project/speculative-decoding/">Project details →</a> · <a href="/event/qualifying-exam/">Qualifying exam & slides →</a></p>
     design:
       columns: '1'
   - block: collection
     content:
-      title: Selected Research Projects
+      title: Selected Research
+      count: 6
       filters:
         folders:
           - publication

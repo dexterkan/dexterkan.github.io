@@ -1,4 +1,10 @@
 ---
+research_brief:
+  title: "Hybrid Relay–RIS Joint Beamforming"
+  context: "IEEE TVT · 2023"
+  problem: "Base-station, relay, and RIS settings interact across two transmission phases."
+  contribution: "Alternating optimization of active and passive beamforming, with discrete RIS phase constraints."
+  result: "Higher sum-rate in the reported topology sweeps; the walkthrough also examines CSI errors, CPU cost, and energy efficiency."
 title: "Hybrid relay and reconfigurable intelligent surface assisted multiuser MISO systems"
 authors:
 - Te-Yi Kan

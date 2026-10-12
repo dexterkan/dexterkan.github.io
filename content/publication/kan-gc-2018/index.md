@@ -1,4 +1,10 @@
 ---
+research_brief:
+  title: "QoS-Aware Multi-Server MEC"
+  context: "IEEE Globecom Workshops · 2018"
+  problem: "Busy edge servers can miss task deadlines while nearby servers retain spare capacity."
+  contribution: "Joint offloading, radio/compute allocation, and local-server-first load distribution."
+  result: "Lower execution cost and better deadline satisfaction than no load distribution in the reported five-server simulations."
 layout: mec-qos
 title: 'QoS-aware mobile edge computing system: Multi-server multi-user scenario'
 authors:

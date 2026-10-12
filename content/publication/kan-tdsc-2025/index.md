@@ -1,4 +1,11 @@
 ---
+url_pdf: '/publication/kan-tdsc-2025/llpri-manuscript.pdf'
+research_brief:
+  title: "LLPRI · Privacy-Preserving Vision Inference"
+  context: "Vision inference · Research manuscript"
+  problem: "Remote inference exposes image content, while local devices have limited compute."
+  contribution: "Sensitive-object detection, resource-aware scheduling, and selective feature obfuscation for distributed inference."
+  result: "14.99% relative detection mAP50 loss versus 47.13% for random masking on COCO (Table I; privacy leakage is not held equal)."
 title: Low‑Latency Private ML inference for Vision Tasks in Distributed Environments
 authors:
 - Te-Yi Kan

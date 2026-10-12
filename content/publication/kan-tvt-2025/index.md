@@ -1,4 +1,10 @@
 ---
+research_brief:
+  title: "TODORA · Time-Sensitive Edge–Cloud Scheduling"
+  context: "IEEE TVT · 2025"
+  problem: "Faster remote processors can still incur upload, waiting, and scheduling delays."
+  contribution: "Online distributed offloading across vehicles, edge servers, and cloud, with joint compute and airtime allocation."
+  result: "Decision runtime < 1 ms versus > 1 s for POPT; lower overall task duration in the vehicle-compute simulation sweep (Figure 4)."
 title: "Online distributed offloading of time-sensitive vehicular tasks in edge-cloud systems"
 authors:
 - Te-Yi Kan

@@ -1,4 +1,11 @@
 ---
+url_pdf: '/publication/kan-icml-2026/nas-manuscript.pdf'
+research_brief:
+  title: "Cloud–Edge Hardware-Aware NAS"
+  context: "Manuscript · ICML submission"
+  problem: "Adapt ML models to changing device latency and memory budgets without uploading local training data."
+  contribution: "Cloud supernet search followed by lightweight on-device sequential beam search with direct profiling and caching."
+  result: "Lower search time than cloud-only baselines in vision and language-modeling experiments, with a task-utility tradeoff."
 title: Neural Architecture Search for Edge Devices via Cloud-Edge Collaboration
 authors:
 - Te-Yi Kan

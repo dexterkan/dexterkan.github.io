@@ -1,4 +1,10 @@
 ---
+research_brief:
+  title: "DeepMCTS · Neural-Guided MIMO Detection"
+  context: "IEEE VTC Spring · 2022"
+  problem: "Accurate symbol detection requires exploring an exponentially growing candidate space."
+  contribution: "Deep reinforcement learning supplies policy and value estimates to guide Monte Carlo tree search."
+  result: "Improved detection performance and search efficiency over conventional MCTS under the evaluated varying channels."
 title: 'DeepMCTS: Deep reinforcement learning assisted monte carlo tree search for MIMO detection'
 authors:
 - Tz-Wei Mo
@@ -23,7 +29,7 @@ links:
   name: IEEE VTC
   url: https://ieeexplore.ieee.org/abstract/document/9860565
 
-url_pdf: uploads/mo-2022-deepmcts
+url_pdf: '/uploads/mo-2022-deepmcts.pdf'
 
 featured: true
 ---
