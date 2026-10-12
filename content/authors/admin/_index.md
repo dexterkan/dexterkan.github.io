@@ -130,8 +130,9 @@ work:
     date_end: 2026-08-31
     summary: |2-
       Large-scale ads attribution and ML experimentation (May–August 2026).
-      - Improved ads attribution models through architecture, feature, and objective optimization, executing 200+ A/B experiments that identified promotable MLX candidates.
-      - Built an AI-agent-driven experimentation pipeline that reduced experiment reruns from days to hours.
+      - Owned end-to-end design and execution of 200+ offline training and evaluation experiments for ads attribution models, exploring architectures, training strategies, loss functions, label engineering, and features. Selected model candidates advanced to online testing.
+      - Built AI-assisted experimentation tooling to automate repetitive training and evaluation workflows, reducing experiment rerun turnaround from days to hours.
+      - Investigated model generalization challenges involving large-scale feature sets and training data.
       - Partnered with upstream teams to build training-data pipelines for new labels and event-based sequence features, expanding modeling signals for experimentation.
   - position: Research Assistant
     company_name: NetPD at USC
