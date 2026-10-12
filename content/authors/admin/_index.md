@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Ph.D. Student
+role: Ph.D. Candidate · Machine Learning & Distributed Systems
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -32,21 +32,22 @@ organizations:
 profiles:
   - icon: at-symbol
     url: 'mailto:teyikan@usc.edu'
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/dexter_kan
-  - icon: brands/instagram
-    url: https://www.instagram.com/dexter.0426/
+    label: Email
   - icon: brands/github
     url: https://github.com/dexterkan
   - icon: brands/linkedin
-    url: https://www.linkedin.com/dexter-kan/
+    url: https://www.linkedin.com/in/dexter-kan/
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=ZoeW9jkAAAAJ&hl=en
   - icon: academicons/orcid
     url: https://orcid.org/0000-0002-2251-1499
+  - icon: brands/x
+    url: https://x.com/dexter_kan
+  - icon: brands/instagram
+    url: https://www.instagram.com/dexter.0426/
 
 interests:
+  - Efficient LLM Inference and Speculative Decoding
   - Privacy-preserving and Distributed Machine Learning Systems
   - Task Scheduling
   - Vehicular Networking
@@ -59,6 +60,12 @@ education:
     date_start: 2022-08-22
     date_end: ''
     summary: |
+      Ph.D. candidate; qualifying exam passed. Expected graduation: May 2027.
+
+      Dissertation topic: Efficient and Privacy-Aware Machine Learning Systems for Resource-Constrained Devices.
+
+      [Qualifying exam overview and slides](/event/qualifying-exam/)
+
       Research on machine learning and artificial intelligence applications for mobile systems, under the supervision of [Prof Konstantinos Psounis](https://sites.usc.edu/kpsounis/).
 
       Research topics include:
@@ -79,10 +86,10 @@ education:
 
       <div style='margin-top: 1.5rem;'>
         <a href='/uploads/resume.pdf' class='inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-2 focus:ring-primary-700 focus:text-primary-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700' style='margin-right: 0.5rem;'>
-          Download CV
+          Resume
         </a>
         <a href='/uploads/resume_full.pdf' class='inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-2 focus:ring-primary-700 focus:text-primary-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700'>
-          Download Full CV
+          Full CV
         </a>
       </div>
   - area: MS Electrical and Computer Engineering
@@ -97,7 +104,7 @@ education:
       - Convex Optimization
       - Neural Networks and Deep learning
       - Reinforcement Learning
-      - Internet Architecture and Protocals
+      - Internet Architecture and Protocols
       - Large Scale Data Mining
   - area: BS Electrical Engineering
     institution: National Taiwan University (NTU)
@@ -113,7 +120,7 @@ education:
       - Wireless and Mobile Networking
       - Algorithms
       - Network Planning and Management
-      - Desing of Wireless Communication Networks
+      - Design of Wireless Communication Networks
 work:
   - position: Machine Learning Engineer Intern (Incoming)
     company_name: Meta
@@ -122,7 +129,8 @@ work:
     date_start: 2026-05-01
     date_end: 2026-08-31
     summary: |2-
-      Incoming Machine Learning Engineer Intern for Summer 2026.
+      Incoming Machine Learning Engineer Intern for Summer 2026 in Menlo Park, CA.
+      - Expected to work on ad recommendation under privacy constraints, focusing on improving ranking and retrieval utility while complying with privacy and data minimization requirements.
   - position: Research Assistant
     company_name: NetPD at USC
     company_url: 'https://sites.usc.edu/kpsounis/'
@@ -130,6 +138,11 @@ work:
     date_start: 2023-02-10
     date_end: ''
     summary: |2-
+      Collaborative Speculative Decoding Across Edge and Cloud (February 2026–present)
+      - Built a confidence- and hardness-aware pipeline that selectively uploads draft tokens for cloud verification.
+      - Uses adaptive gating to reduce unnecessary verification, communication overhead, and verifier load while maintaining generation quality.
+      - [Project details](/project/speculative-decoding/)
+
       Efficient Hardware-Aware Neural Architecture Search [ICML-26]
       - <div style='text-align: justify;'> Designed a two-stage neural architecture search framework that combines cloud-scale exploration with on-device refinement, enabling personalized models under strict latency and memory constraints. </div>
       - <div style='text-align: justify;'> Eliminates the need to offload sensitive edge data to the cloud while rapidly adapting model architectures to changing device conditions such as CPU load and memory availability. </div>
@@ -295,6 +308,10 @@ awards:
 
 ## About Me
 
-<p style='text-align: justify;'>I am a Ph.D. Fellow in Electrical and Computer Engineering at USC, where my research focuses on making machine learning efficient, deployable, and privacy-preserving for real-world systems. My expertise spans scalable ML algorithms, distributed optimization, and privacy-aware inference for resource-constrained devices. My dissertation topic is "Towards Efficient and Privacy-Preserving Machine Learning for Resource-Constrained Devices." </p>
+I am a Ph.D. candidate in Electrical and Computer Engineering at USC, building efficient and privacy-preserving machine learning systems for resource-constrained devices. My work spans computer vision inference pipelines, distributed task scheduling, and hardware-aware neural architecture search, and collaborative speculative decoding for LLM inference.
 
-<p style='text-align: justify;'>Before joining USC, I earned my B.S. degree in Electrical Engineering from NTU, Taiwan, in 2019, and my M.S. degree in Electrical and Computer Engineering from UCLA in 2020. I also worked as a Research Assistant in wireless communications at Academia Sinica, collaborating with industry partners such as MediaTek on 6G system implementation challenges. My teaching experience at USC has strengthened my ability to communicate complex technical concepts clearly and work effectively in cross-functional teams. </p>
+I combine algorithm design with system implementation and experimental evaluation. My research examines how to balance task utility, privacy, latency, and device resources in edge–cloud environments.
+
+Previously, I earned my B.S. in Electrical Engineering from National Taiwan University and my M.S. in Electrical and Computer Engineering from UCLA. At Academia Sinica, I researched wireless systems and collaborated with MediaTek researchers on 6G system design.
+
+I have passed my Ph.D. qualifying exam. My expected graduation is May 2027. [Qualifying exam overview and slides](/event/qualifying-exam/).

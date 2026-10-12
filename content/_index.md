@@ -1,111 +1,65 @@
 ---
-# Leave the homepage title empty to use the site title
 title: ""
 date: 2022-10-24
 type: landing
-
 design:
-  # Default section spacing
-  spacing: "6rem"
-
+  spacing: '4rem'
 sections:
-  - block: resume-biography-3
+  - block: career-biography
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
       text: ""
     design:
       css_class: light
-      # background:
-      #   color: zinc
-        # image:
-          # Add your image background to `assets/media/`.
-        #   filename: stacked-peaks.svg
-        #   filters:
-        #     brightness: 1.0
-        #   size: cover
-        #   position: center
-        #   parallax: false
-  - block: markdown
+  - block: career-markdown
+    id: selected-work
     content:
+      title: 'Selected Work'
       text: |-
-        <div style='text-align: center; margin-top: 0rem; margin-bottom: 0rem;'>
-          <a href='/uploads/resume.pdf' class='inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-2 focus:ring-primary-700 focus:text-primary-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700' style='margin-right: 0.5rem;'>
-            Download CV
-          </a>
-          <a href='/uploads/resume_full.pdf' class='inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-2 focus:ring-primary-700 focus:text-primary-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700'>
-            Download Full CV
-          </a>
+        <div class="career-grid">
+        <article class="career-card"><p class="career-eyebrow">ML SYSTEMS · COMPUTER VISION</p><h3>Privacy-Preserving Vision Inference</h3><p><strong>Problem.</strong> Remote vision inference can expose sensitive image content; mobile devices have limited compute.</p><p><strong>Contribution.</strong> Developed LLPRI, a pipeline combining sensitive object detection, scheduling, and obfuscation to balance privacy, task utility, and latency.</p><p><strong>Evaluation.</strong> Experiments examine privacy protection, vision-task utility, and latency overhead.</p><div class="career-links"><a href="/publication/kan-tdsc-2025/">Research details →</a></div></article>
+        <article class="career-card"><p class="career-eyebrow">DISTRIBUTED SYSTEMS · OPTIMIZATION</p><h3>Time-Sensitive Edge–Cloud Scheduling</h3><p><strong>Problem.</strong> Vehicular ML tasks need timely results despite constrained compute and communication overhead.</p><p><strong>Contribution.</strong> Designed TODORA, a threshold-based online mechanism for distributed task offloading and resource allocation.</p><p><strong>Evaluation.</strong> Simulations compare task duration and computation overhead against periodic optimization and practical baselines.</p><div class="career-links"><a href="/publication/kan-tvt-2025/">Paper & research details →</a></div></article>
+        <article class="career-card"><p class="career-eyebrow">LLM INFERENCE · EDGE–CLOUD SYSTEMS</p><h3>Collaborative Speculative Decoding</h3><p><strong>Problem.</strong> Repeated cloud verification adds latency, communication overhead, and verifier load during LLM generation.</p><p><strong>Contribution.</strong> Built a pipeline that uses drafter confidence and token hardness to selectively send uncertain tokens for cloud verification.</p><p><strong>Focus.</strong> Reduce unnecessary verification and cloud serving cost while maintaining generation quality.</p><p class="career-context">February 2026–present · Ongoing research</p><div class="career-links"><a href="/project/speculative-decoding/">Project details →</a></div></article>
         </div>
+        <p class="career-section-link"><a href="/projects/">More engineering projects →</a> · <a href="/research/">More research →</a></p>
     design:
-      css_class: light
-      spacing:
-        padding: ["2rem", 0, "2rem", 0]
-  - block: markdown
+      columns: '1'
+  - block: career-markdown
     content:
-      title: '📚 My Research'
-      subtitle: ''
+      title: 'Relevant Experience'
       text: |-
-        <div style='text-align: justify;'> My research focuses on making machine learning systems efficient, scalable, and privacy-preserving for real-world deployment. I work at the intersection of machine learning and distributed systems, developing solutions that enable practical ML inference on resource-constrained devices while protecting user privacy.
-
-        My work addresses critical challenges in distributed edge–cloud environments, including privacy-preserving inference pipelines, threshold-based scheduling and task offloading, and hardware-aware neural architecture search for heterogeneous devices. These systems demonstrate how privacy, efficiency, and scalability can be achieved together in large-scale deployments.
-        
-        Please reach out to collaborate 😃 </div>
-        
-        <div style='text-align: center; margin-top: 2rem;'>
-          <a href='research/' class='inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-2 focus:ring-primary-700 focus:text-primary-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700'>
-            See Selected Research →
-          </a>
-        </div>
+        <div class="career-grid"><article class="career-card"><p class="career-eyebrow">META · SUMMER 2026</p><h3>Incoming Machine Learning Engineer Intern</h3><p class="career-context">May–August 2026 · Menlo Park, CA</p><p>Expected focus: ad recommendation under privacy constraints, improving ranking and retrieval utility while meeting privacy and data minimization requirements.</p><div class="career-links"><a href="/experience/">Internship & experience →</a></div></article><article class="career-card"><p class="career-eyebrow">USC · RESEARCH</p><h3>Machine Learning & Distributed Systems</h3><p>Developed privacy-preserving inference, hardware-aware neural architecture search, online edge–cloud scheduling, and collaborative speculative decoding in the NetPD research group.</p><div class="career-links"><a href="/experience/">Experience & education →</a></div></article><article class="career-card"><p class="career-eyebrow">ACADEMIA SINICA · INDUSTRY COLLABORATION</p><h3>Wireless Systems & Optimization</h3><p>Researched intelligent reflecting surfaces and DRL-enhanced MIMO detection, and collaborated with MediaTek researchers on hybrid RIS/relay systems for 6G communications.</p><div class="career-links"><a href="/experience/">Research & collaboration →</a></div></article></div>
     design:
       columns: '1'
   - block: collection
     content:
-      title: Recent Publications
+      title: Selected Publications & Manuscripts
       count: 3
       filters:
         folders:
           - publication
+        featured_only: true
     design:
       view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      # view: article-grid
-      # columns: 1
-      view: compact
   - block: collection
     id: news
     content:
       title: Recent News
-      subtitle: ''
-      text: ''
-      # Page type to display. E.g. post, talk, publication...
-      page_type: post
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
+      count: 3
       filters:
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
+        folders:
+          - post
       order: desc
     design:
-      # Choose a layout view
       view: date-title-summary
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
+  - block: collection
+    id: talks
+    content:
+      title: Talks & Presentations
+      count: 3
+      filters:
+        folders:
+          - event
+    design:
+      view: date-title-summary
 ---

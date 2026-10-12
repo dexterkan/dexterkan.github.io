@@ -1,0 +1,6 @@
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+<div class="career-section">
+  {{ with $block.content.title }}<h2 class="career-section-title text-gray-900 dark:text-white">{{ . | $page.RenderString }}</h2>{{ end }}
+  <div class="prose prose-slate dark:prose-invert career-section-body">{{ $block.content.text | $page.RenderString | safeHTML }}</div>
+</div>

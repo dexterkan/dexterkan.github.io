@@ -2,53 +2,20 @@
 title: 'Projects'
 date: 2024-05-19
 type: landing
-
 design:
-  # Section spacing
-  spacing: '5rem'
-
-# Page sections
-# sections:
-#   - block: collection
-#     content:
-#       title: Selected Projects
-#       text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
-#       filters:
-#         folders:
-#           - project
-#     design:
-#       view: article-grid
-#       fill_image: false
-#       columns: 3
+  spacing: '4rem'
 sections:
-  - block: markdown
-    id: section-projects
+  - block: career-markdown
     content:
-      title: Selective Projects
-      username: admin
-      text: |
-        <div class="flex flex-col lg:flex-row flex-wrap justify-between mx-auto gap-6 px-6 md:px-0">
-          <!-- Row 0 -->
-          <div class="w-full">
-            <div class="uppercase tracking-wide mb-5 text-xl font-bold text-primary-700 dark:text-primary-200 flex justify-between items-center">Schematic-to-Netlist Translation using RL-Enhanced VLM Pipeline</div>
-            <div class="mb-5 text-base font-bold text-gray-900 dark:text-white flex justify-between items-center">Fall 2025</div>
-            <ul class="space-y-2 text-gray-700 dark:text-gray-300" style="text-align: justify;">
-              <li>Built an RL-enhanced vision-language pipeline with Qwen, translating circuit schematics into SPICE-compatible netlists with syntax and functional guarantees.</li>
-              <li>Trained Qwen with LoRA for schematic understanding, then used GRPO reinforcement learning with dual rewards (syntax validity + SPICE simulation-based functional correctness) to iteratively refine netlists.</li>
-              <li>Integrated circuit rule checks and simulation signals into the reward loop, boosting end-to-end translation accuracy and reducing human correction time.</li>
-            </ul>
-          </div>
-
-          <!-- Row 1 -->
-          <div class="w-full">
-            <div class="uppercase tracking-wide mb-5 text-xl font-bold text-primary-700 dark:text-primary-200 flex justify-between items-center">Operating System Implementation</div>
-            <div class="mb-5 text-base font-bold text-gray-900 dark:text-white flex justify-between items-center">Spring 2024</div>
-            <ul class="space-y-2 text-gray-700 dark:text-gray-300" style="text-align: justify;">
-              <li>Completed Brown University's kernel assignment project to build a simple operating system called Weenix.</li>
-              <li>Implemented essential elements for an operating systems, including but not limited to process, thread, scheduler, virtual file system, and virtual memory.</li>
-            </ul>
-          </div>
-
+      title: 'Selected Projects'
+      text: |-
+        <p>Selected implementations across machine learning and systems programming. Research systems and their evaluations are also documented on the <a href="/research/">Research page</a>.</p>
+        <div class="career-grid">
+        <article class="career-card"><p class="career-eyebrow">LLM INFERENCE · EDGE–CLOUD SYSTEMS</p><h3>Collaborative Speculative Decoding</h3><p><strong>Problem.</strong> Repeated cloud verification adds latency, communication overhead, and verifier load during LLM generation.</p><p><strong>Contribution.</strong> Built a pipeline that uses drafter confidence and token hardness to selectively send uncertain tokens for cloud verification.</p><p><strong>Focus.</strong> Reduce unnecessary verification and cloud serving cost while maintaining generation quality.</p><p class="career-context">February 2026–present · Ongoing research</p><div class="career-links"><a href="/project/speculative-decoding/">Project details →</a></div></article>
+        <article id="schematic-to-netlist" class="career-card"><p class="career-eyebrow">VISION–LANGUAGE MODELS · REINFORCEMENT LEARNING</p><h3>Schematic-to-Netlist Translation</h3><p><strong>Problem.</strong> Translating circuit diagrams into usable SPICE netlists requires both valid syntax and correct circuit behavior.</p><p><strong>Contribution.</strong> Built a Qwen-based pipeline using LoRA adaptation and GRPO reinforcement learning, with syntax checks and SPICE simulation signals in the reward loop.</p><p><strong>Validation.</strong> Used circuit rule checks and simulation-based functional correctness to guide netlist refinement.</p><p class="career-context">Fall 2025 · Qwen, LoRA, GRPO, SPICE</p></article>
+        <article class="career-card"><p class="career-eyebrow">SYSTEMS PROGRAMMING · C</p><h3>Operating System Implementation</h3><p><strong>Scope.</strong> Implemented core components of Weenix through Brown University’s operating systems assignment.</p><p><strong>Implementation.</strong> Processes, threads, scheduling, virtual file systems, and virtual memory.</p><p><strong>Engineering focus.</strong> Kernel abstractions, resource management, and the interaction between execution, storage, and memory.</p><div class="career-links"><a href="/experience/">Technical background →</a></div></article>
+        </div>
+        <details class="career-archive"><summary>Additional projects · 2016–2023</summary><div class="career-archive-content">
           <!-- Row 1 -->
           <div class="w-full">
             <div class="uppercase tracking-wide mb-5 text-xl font-bold text-primary-700 dark:text-primary-200 flex justify-between items-center">Drift-Plus-Penalty (DPP)-based Task Offloading Mechanism for Vehicular Networks</div>
@@ -164,5 +131,7 @@ sections:
               <li>Performed hash, Boolean logic simulations, and Boolean Satisfiability (SAT) solver to detect equivalence in a circuit.</li>
             </ul>
           </div>
-        </div>
+        </div></details>
+    design:
+      columns: '1'
 ---

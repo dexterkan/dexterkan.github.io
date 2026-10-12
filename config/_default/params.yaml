@@ -14,8 +14,8 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
-    twitter: 'GetResearchDev'
+    description: 'Te-Yi (Dexter) Kan — USC Ph.D. candidate in efficient machine learning, privacy-preserving inference, and distributed edge–cloud systems.'
+    twitter: 'dexter_kan'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -40,7 +40,7 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: 'You are very welcome to contact me regarding my research and collaboration. I can be contacted directly at teyikan@usc.edu'
+    notice: 'For engineering opportunities, research, and collaboration: teyikan@usc.edu'
     license:
       enable: true
       allow_derivatives: false
