@@ -122,15 +122,17 @@ education:
       - Network Planning and Management
       - Design of Wireless Communication Networks
 work:
-  - position: Machine Learning Engineer Intern (Incoming)
+  - position: Machine Learning Engineer Intern
     company_name: Meta
     company_url: 'https://www.meta.com/'
     company_logo: ''
     date_start: 2026-05-01
     date_end: 2026-08-31
     summary: |2-
-      Incoming Machine Learning Engineer Intern for Summer 2026 in Menlo Park, CA.
-      - Expected to work on ad recommendation under privacy constraints, focusing on improving ranking and retrieval utility while complying with privacy and data minimization requirements.
+      Large-scale ads attribution and ML experimentation (May–August 2026).
+      - Improved ads attribution models through architecture, feature, and objective optimization, executing 200+ A/B experiments that identified promotable MLX candidates.
+      - Built an AI-agent-driven experimentation pipeline that reduced experiment reruns from days to hours.
+      - Partnered with upstream teams to build training-data pipelines for new labels and event-based sequence features, expanding modeling signals for experimentation.
   - position: Research Assistant
     company_name: NetPD at USC
     company_url: 'https://sites.usc.edu/kpsounis/'
