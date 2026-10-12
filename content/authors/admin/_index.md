@@ -142,8 +142,9 @@ work:
     date_end: ''
     summary: |2-
       Collaborative Speculative Decoding Across Edge and Cloud (February 2026–present)
-      - Built a confidence- and hardness-aware pipeline that selectively uploads draft tokens for cloud verification.
-      - Uses adaptive gating to reduce unnecessary verification, communication overhead, and verifier load while maintaining generation quality.
+      - Built a confidence- and hardness-aware pipeline that selectively routes 8-token draft spans for cloud verification.
+      - Sole contributor responsible for design, implementation, and evaluation, with research guidance from my advisor.
+      - Preliminary GSM8K experiments achieved 72.21% accuracy at a 27.00% cloud call rate, versus 61.26% edge-only accuracy. End-to-end latency remains to be evaluated.
       - [Project details](/project/speculative-decoding/)
 
       Cloud–Edge Hardware-Aware Neural Architecture Search [ICML, Submitted]
